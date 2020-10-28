@@ -10,6 +10,7 @@ body {
 .flex-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .grid-container {
@@ -54,6 +55,11 @@ body {
   right: 0;
 }
 
+.header-nav {
+  font-size: 22px;
+  margin-left: 50px;
+}
+
 .header-nav li {
   display: inline-block;
 }
@@ -72,7 +78,6 @@ body {
 .logo {
   width: 20px;
   height: 20px;
-  vertical-align: center;
 }
 
 .banner {
