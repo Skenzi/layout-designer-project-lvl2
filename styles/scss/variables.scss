@@ -9,16 +9,28 @@ body {
 }
 .flex-container {
  display: flex;
+ justify-content: space-between;
 }
 .grid-container {
- display: grid;
- grid-template-areas: ". . h-logo h-logo . nav nav nav . . search search . ."; 
+ display: grid; 
 }
-.text-center {
- text-align: center;
+.absolute {
+ position: absolute;
+}
+.content-center {
+ vertical-align: center;
 }
 .nav {
  list-style-type: none;
+}
+.pdg-60-0 {
+ padding: 60px 0;
+}
+.w-70 {
+ width: 70%;
+}
+.mrg-center {
+ margin: 0 auto;
 }
 @mixin text-color($name-color, $color) {
   .#{$name-color}-color {

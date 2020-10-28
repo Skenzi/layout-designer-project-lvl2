@@ -1,8 +1,10 @@
-.header-logo {
-  grid-area: h-logo;
+.header-position {
+  top: 0;
+  left: 0;
+  right: 0;
 }
 .header-nav {
-  grid-area: nav;
+  
 }
 .header-nav li {
   display: inline-block;
