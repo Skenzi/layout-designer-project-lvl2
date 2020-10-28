@@ -1,18 +1,25 @@
-.logo {
-  vertical-align: center;
-  grid-column: 2 / 3;
-  grid-row: 1 / 2; 
+.header-logo {
+  grid-area: h-logo;
 }
 .header-nav {
+  grid-area: nav;
+}
+.header-nav li {
   display: inline-block;
-  grid-column: 4 / 5;
-  grid-row: 1 / 2;
 }
 .search-box {
-  border-radius: 10px;
-  padding: 5px;
+  border-radius: 10px 0 0 10px;
+  padding: 10px;
+  grid-area: search;
 }
 .search-img {
-  width: 10px;
-  height: 10px;
+  border-radius: 0 10px 10px 0;
+  width: 20px;
+  height: 20px;
+  background-color: $primary-color;
+}
+.logo {
+  width: 20px;
+  height: 20px;
+  vertical-align: center;
 }

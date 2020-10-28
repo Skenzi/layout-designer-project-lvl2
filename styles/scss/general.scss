@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-html {
+body {
   font-family: Roboto, sans-serif;
   margin: 0;
 }
@@ -10,8 +10,7 @@ html {
 }
 .grid-container {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 3fr 3fr 2fr 2fr;
-  grid-template-rows: repeat(7, 1fr);
+  grid-template-areas: "header header h-logo h-logo . nav nav nav . . . search search header header";
 }
 .text-center {
   text-align: center;
