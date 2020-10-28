@@ -13,7 +13,7 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-areas: "header header h-logo h-logo . nav nav nav . . . search search header header";
+  grid-template-areas: ". . h-logo h-logo . nav nav nav . . search search . .";
 }
 
 .text-center {
@@ -24,8 +24,12 @@ body {
   list-style-type: none;
 }
 
-.font-color {
+.primary-color {
   color: #fff;
+}
+
+.black-bgcolor {
+  background-color: #000;
 }
 
 .header-logo {
@@ -43,20 +47,23 @@ body {
 .search-box {
   border-radius: 10px 0 0 10px;
   padding: 10px;
-  grid-area: search;
 }
 
 .search-img {
   border-radius: 0 10px 10px 0;
   width: 20px;
   height: 20px;
-  background-color: #fff;
 }
 
 .logo {
   width: 20px;
   height: 20px;
   vertical-align: center;
+}
+
+.banner {
+  background-image: url(../../image/banner.png);
+  background-size: cover;
 }
 
 /*# sourceMappingURL=style.css.map */
