@@ -1,0 +1,18 @@
+.logo {
+  vertical-align: center;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2; 
+}
+.header-nav {
+  display: inline-block;
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+}
+.search-box {
+  border-radius: 10px;
+  padding: 5px;
+}
+.search-img {
+  width: 20px;
+  height: 20px;
+}
