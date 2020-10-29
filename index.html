@@ -11,39 +11,41 @@
  <body>
 
    <header class="absolute header-position">
+    
     <div class="flex-container mrg-center w-70"> 
+     
      <section>
-      <img src="images/logo.svg" alt="Logo" class="logo content-center"><span class="content-center primary-color">MUSIC BOX</span>
+      <img src="images/logo.svg" alt="Logo" class="logo content-center"><span class="content-center primary-color font-s-12">MUSIC BOX</span>
      </section>
      
-     <div class="flex-container">
-      <section class="header-nav">
-       <ul class="nav primary-color">
-        <li>ГЛАВНАЯ</li>
-        <li>КАТАЛОГ</li>
-        <li>ИСПОЛНИТЕЛИ</li>
-        <li>КОНТАКТЫ</li>
+      <section>
+       <ul class="nav header-nav primary-color font-s-12">
+	 <a href="#"><li>ГЛАВНАЯ</li></a>
+	 <a href="#"><li>КАТАЛОГ</li></a>
+	 <a href="#"><li>ИСПОЛНИТЕЛИ</li></a>
+         <a href="#"><li>КОНТАКТЫ</li></a>
        </ul>
       </section>
       
       <section> 
-       <input type="search" name="search" placeholder="Поиск..." class="search-box"><img src="images/loupe.svg" alt="loupe" class="search-img primary-color">
+       <input type="search" name="search" placeholder="Поиск..." class="darkgray-bgcolor search-box">      
       </section>
-     </div>
+    
     </div>
+   
    </header>
 
    <main>
      
      <section class="banner">
-      <div>
+      <div class="flex-container banner-content mrg-center">
        <h1>ОНЛАЙН МУЗЫКА ГДЕ УГОДНО</h1>
        <div>БЕЗ ОГРАНИЧЕНИЙ</div>
-       <div>Получите доступ всего за нексколько шагов. Заполните форму и откройте мир музыки</div>
-       <form>
-        <input type="text" name="name" placeholder="Имя">
-	<input type="email" name="email" placeholder="Email">
-	<button>ПОЛУЧИТЬ ДОСТУП</button>
+       <div class="mrg-40-0-30-0">Получите доступ всего за нексколько шагов. Заполните форму и откройте мир музыки</div>
+       <form action="#" method="POST" class="grid-container form">
+        <input type="text" name="name" placeholder="Имя" class="name-box">
+	<input type="email" name="email" placeholder="Email" class="email-box">
+	<button class="limegreen-bgcolor btn btn-banner">ПОЛУЧИТЬ ДОСТУП</button>
        </form>
       </div>
      </section>

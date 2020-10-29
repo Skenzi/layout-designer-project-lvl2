@@ -3,23 +3,18 @@
   left: 0;
   right: 0;
 }
-.header-nav {
-  font-size: 22px;	
-  margin-left: 50px;
+.header-nav {	
+  margin-left: -90px;
 }
 .header-nav li {
   display: inline-block;
+  padding-right: 40px;
 }
 .search-box {
-  border-radius: 10px 0 0 10px;
-  padding: 10px;
-}
-.search-img {
-  border-radius: 0 10px 10px 0;
-  width: 20px;
-  height: 20px;
+  border-radius: 50px;
 }
 .logo {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
 }
