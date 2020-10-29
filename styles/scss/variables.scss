@@ -1,5 +1,4 @@
-$bg-colors: ("black": #000, "darkgray": #3c3b3d, "limegreen": #34c176, "transparent": rgba(255,255,255, 0.1));
-$text-colors: ("primary": #fff);
+$bg-colors: ("black": #000, "darkgray": #3c3b3d, "limegreen": #34c176);
 * {
  box-sizing: border-box;
 }
@@ -8,17 +7,8 @@ body {
  margin: 0;
  line-height: 1.5;
 }
-h1, h2, h3, h4 {
+p {
  margin: 0;
-}
-h1 {
- font-size: 60px;
-}
-h2 {
- font-size: 30px;
-}
-h3 {
- font-size: 18px;
 }
 .flex-container {
  display: flex;
@@ -42,7 +32,7 @@ h3 {
 }
 .btn {
  border-radius: 5px;
- padding: 15px 20px;
+ padding: 20px 80px;
 }
 .w-270 {
  width: 270px;
@@ -53,8 +43,20 @@ h3 {
 .pdg-20-0 {
  padding: 20px 0;
 }
-.font-s-11 {
-  font-size: 11px;
+@mixin font-size($size, $unit) {
+  .font-s-#{$size} {
+   font-size: #{$size}#{$unit};
+  }
+}
+@include font-size(11, px);
+@include font-size(14, px);
+@include font-size(18, px);
+@include font-size(24, px);
+@include font-size(30, px);
+@include font-size(38, px);
+@include font-size(60, px);
+.f-weight-700 {
+ font-weight: 700;
 }
 .mrg-center {
  margin: 0 auto;
@@ -66,18 +68,10 @@ a:link {
  text-decoration: none;
  color: #fff;
 }
-@mixin text-color($name-color, $color) {
-  .#{$name-color}-color {
-   color: $color;
-  }
-  }
 @mixin bg-color($name-color, $color) {  
   .#{$name-color}-bgcolor {
    background-color: $color;
   }
-}
-@each $name-color, $color in $text-colors {
- @include text-color($name-color, $color);
 }
 @each $name-color, $color in $bg-colors {
  @include bg-color($name-color, $color);

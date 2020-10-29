@@ -8,20 +8,8 @@ body {
   line-height: 1.5;
 }
 
-h1, h2, h3, h4 {
+p {
   margin: 0;
-}
-
-h1 {
-  font-size: 60px;
-}
-
-h2 {
-  font-size: 30px;
-}
-
-h3 {
-  font-size: 18px;
 }
 
 .flex-container {
@@ -52,7 +40,7 @@ h3 {
 
 .btn {
   border-radius: 5px;
-  padding: 15px 20px;
+  padding: 20px 80px;
 }
 
 .w-270 {
@@ -71,6 +59,34 @@ h3 {
   font-size: 11px;
 }
 
+.font-s-14 {
+  font-size: 14px;
+}
+
+.font-s-18 {
+  font-size: 18px;
+}
+
+.font-s-24 {
+  font-size: 24px;
+}
+
+.font-s-30 {
+  font-size: 30px;
+}
+
+.font-s-38 {
+  font-size: 38px;
+}
+
+.font-s-60 {
+  font-size: 60px;
+}
+
+.f-weight-700 {
+  font-weight: 700;
+}
+
 .mrg-center {
   margin: 0 auto;
 }
@@ -84,10 +100,6 @@ a:link {
   color: #fff;
 }
 
-.primary-color {
-  color: #fff;
-}
-
 .black-bgcolor {
   background-color: #000;
 }
@@ -98,10 +110,6 @@ a:link {
 
 .limegreen-bgcolor {
   background-color: #34c176;
-}
-
-.transparent-bgcolor {
-  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .header-position {
@@ -175,12 +183,22 @@ a:link {
 }
 
 .form input {
-  padding: 8px 9px;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 17px 20px;
   border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 .btn-banner {
   grid-area: button;
+  color: #fff;
+}
+
+.header-subs {
+  font-size: 38px;
+  margin: 100px 0 50px 0;
 }
 
 .form-subscribes {
@@ -190,14 +208,36 @@ a:link {
 
 .subscribe-1 {
   background-image: url(../images/subscribe_1.png);
+  background-size: cover;
+  height: 580px;
 }
 
 .subscribe-2 {
   background-image: url(../images/subscribe_2.png);
+  background-size: cover;
+  height: 580px;
 }
 
 .subscribe-3 {
   background-image: url(../images/subscribe_3.png);
+  background-size: cover;
+  height: 580px;
+}
+
+.form-subscribes .subscribe-1, .subscribe-2, .subscribe-3 {
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.form-subscribes sup {
+  margin-left: 10px;
+}
+
+.btn-subs {
+  background-color: transparent;
+  border: 4px solid #fff;
+  color: #fff;
+  margin: 40px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
