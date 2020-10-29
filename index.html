@@ -12,13 +12,13 @@
 
    <header class="absolute header-position">
     
-    <div class="flex-container mrg-center pdg-20-0"> 
+    <div class="grid-container header-areas pdg-20-0"> 
      
-     <section>
+     <section class="logo-area">
       <img src="images/logo.svg" alt="Logo" class="logo content-center"><span class="content-center font-s-11">MUSIC BOX</span>
      </section>
      
-      <section>
+      <section class="nav-area">
        <ul class="nav header-nav font-s-11">
 	 <a href="#"><li>ГЛАВНАЯ</li></a>
 	 <a href="#"><li>КАТАЛОГ</li></a>
@@ -27,7 +27,7 @@
        </ul>
       </section>
       
-      <section> 
+      <section class="search-area"> 
        <input type="search" name="search" placeholder="Поиск..." class="darkgray-bgcolor search-box">      
       </section>
     
@@ -38,20 +38,49 @@
    <main>
      
      <section class="banner">
-      <div class="flex-container banner-content mrg-center">
+      <div class="flex-container flex-column mrg-center">
        <h1>ОНЛАЙН МУЗЫКА ГДЕ УГОДНО</h1>
        <h2>БЕЗ ОГРАНИЧЕНИЙ</h2>
        <h3 class="mrg-40-0-30-0">Получите доступ всего за нексколько шагов. Заполните форму и откройте мир музыки</h3>
        <form action="#" method="POST" class="grid-container form">
-        <input type="text" name="name" placeholder="Имя" class="name-box w-270">
-	<input type="email" name="email" placeholder="Email" class="email-box w-270">
+        <input type="text" name="name" placeholder="Имя" class="name-box w-270 transparent-bgcolor">
+	<input type="email" name="email" placeholder="Email" class="email-box w-270 transparent-bgcolor">
 	<button class="primary-color limegreen-bgcolor btn btn-banner">ПОЛУЧИТЬ ДОСТУП</button>
        </form>
       </div>
      </section>
 
-     <section>
-
+     <section class="flex-container mrg-center flex-column">
+	 <h2>ФОРМЫ ПОДПИСКИ</h2>
+	 <form class="grid-container form-subscribes" action="#" method="POST">
+		 <div class="subscribe-1 flex-container">
+	          <div>БЕСПЛАТНАЯ</div>
+		  <div>
+		   0<sup>РУБ.</sup>
+		   <button>ОФОРМИТЬ</button>
+		   Оплата в месяц. Бесплатный тариф предоставляет доступ ко всей коллекции музыки. Присутсвует реклама
+		  </div>
+		 </div>
+		  
+		 <div class="subscribe-2">
+		  <div>СТАНДАРТНАЯ</div>
+		  <div>
+                   0<sup>РУБ.</sup>
+		   <button>ОФОРМИТЬ</button>
+		   Оплата в месяц. Стандартный тариф предоставляет доступ ко всей коллекции музыки в среднем качестве
+		  </div>
+		 </div>
+		 
+		 <div class="subscribe-3">
+	          <div>ПРЕМИУМ</div>
+		  <div>
+		   500<sup>РУБ.</sup>
+		   <button>ОФОРМИТЬ</button>
+		   Оплата в месяц. Премиум тариф предоставляет доступ ко всей коллекции музыки в высоком качестве
+		  </div>
+		 </div>
+	 </form>
+	 <div>На всех тарифах возможно прослушивание музыки с мобильных устройств. На премиум тарифе вы можете скачать все композции на ваше устройство и слушать музыку без подключения к интернету</div>
      </section>
 
      <section>

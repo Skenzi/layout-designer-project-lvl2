@@ -25,6 +25,9 @@ h3 {
  justify-content: center;
  align-items: center;
 }
+.flex-column {
+ flex-flow: column wrap;
+}
 .grid-container {
  display: grid; 
 }
