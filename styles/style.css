@@ -24,6 +24,7 @@ p {
 
 .grid-container {
   display: grid;
+  align-items: center;
 }
 
 .absolute {
@@ -99,8 +100,8 @@ p {
   margin-top: 100px;
 }
 
-.mrg-b-60 {
-  margin-bottom: 60px;
+.mrg-b-30 {
+  margin-bottom: 30px;
 }
 
 .mrg-40-0-30-0 {
@@ -109,6 +110,10 @@ p {
 
 .mrg-100-0 {
   margin: 100px 0;
+}
+
+.mrg-0-100 {
+  margin: 0 100px;
 }
 
 .mrg-50-0 {
@@ -251,6 +256,7 @@ a:link {
 .form-subscribes .subscribe-1, .subscribe-2, .subscribe-3 {
   justify-content: space-between;
   padding: 25px;
+  border-radius: 3px;
 }
 
 .form-subscribes sup {

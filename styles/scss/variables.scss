@@ -20,7 +20,8 @@ p {
  flex-flow: column wrap;
 }
 .grid-container {
- display: grid; 
+ display: grid;
+ align-items: center; 
 }
 .absolute {
  position: absolute;
@@ -68,14 +69,17 @@ p {
 .mrg-t-100 {
  margin-top: 100px;
 }
-.mrg-b-60 {
- margin-bottom: 60px;
+.mrg-b-30 {
+ margin-bottom: 30px;
 }
 .mrg-40-0-30-0 {
   margin: 40px 0 30px 0;
 }
 .mrg-100-0 {
   margin: 100px 0;
+}
+.mrg-0-100 {
+ margin: 0 100px;
 }
 .mrg-50-0 {
  margin: 50px 0;
