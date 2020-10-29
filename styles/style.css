@@ -83,6 +83,10 @@ p {
   font-size: 60px;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .f-weight-700 {
   font-weight: 700;
 }
@@ -91,8 +95,24 @@ p {
   margin: 0 auto;
 }
 
+.mrg-t-100 {
+  margin-top: 100px;
+}
+
+.mrg-b-60 {
+  margin-bottom: 60px;
+}
+
 .mrg-40-0-30-0 {
   margin: 40px 0 30px 0;
+}
+
+.mrg-100-0 {
+  margin: 100px 0;
+}
+
+.mrg-50-0 {
+  margin: 50px 0;
 }
 
 a:link {
@@ -110,6 +130,10 @@ a:link {
 
 .limegreen-bgcolor {
   background-color: #34c176;
+}
+
+.primary-color {
+  background-color: #fff;
 }
 
 .header-position {
@@ -203,7 +227,7 @@ a:link {
 
 .form-subscribes {
   grid-template-areas: "free standart premium";
-  grid-gap: 20px;
+  grid-gap: 75px;
 }
 
 .subscribe-1 {
