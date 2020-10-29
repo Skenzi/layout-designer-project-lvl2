@@ -91,7 +91,7 @@ a:link {
 }
 @mixin color($name-color, $color) {  
   .#{$name-color}-color {
-   background-color: $color;
+   color: $color;
   }
 }
 @each $name-color, $color in $bg-colors {
