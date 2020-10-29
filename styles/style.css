@@ -29,6 +29,11 @@ body {
   list-style-type: none;
 }
 
+.btn {
+  border-radius: 5px;
+  padding: 10px;
+}
+
 .pdg-60-0 {
   padding: 60px 0;
 }
@@ -37,8 +42,20 @@ body {
   width: 70%;
 }
 
+.font-s-12 {
+  font-size: 12px;
+}
+
 .mrg-center {
   margin: 0 auto;
+}
+
+.mrg-40-0-30-0 {
+  margin: 40px 0 30px 0;
+}
+
+a:link {
+  text-decoration: none;
 }
 
 .primary-color {
@@ -49,6 +66,14 @@ body {
   background-color: #000;
 }
 
+.darkgray-bgcolor {
+  background-color: #3c3b3d;
+}
+
+.limegreen-bgcolor {
+  background-color: #34c176;
+}
+
 .header-position {
   top: 0;
   left: 0;
@@ -56,33 +81,55 @@ body {
 }
 
 .header-nav {
-  font-size: 22px;
-  margin-left: 50px;
+  margin-left: -90px;
 }
 
 .header-nav li {
   display: inline-block;
+  padding-right: 40px;
 }
 
 .search-box {
-  border-radius: 10px 0 0 10px;
-  padding: 10px;
-}
-
-.search-img {
-  border-radius: 0 10px 10px 0;
-  width: 20px;
-  height: 20px;
+  border-radius: 50px;
 }
 
 .logo {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
 }
 
 .banner {
-  background-image: url(../../image/banner.png);
+  background-image: url(../../images/banner.png);
   background-size: cover;
+  padding: 80px 0;
+}
+
+.banner-content {
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content h1 {
+  margin: 0;
+}
+
+.form {
+  grid-template-areas: "name email" "button button";
+  grid-gap: 20px;
+}
+
+.name-box {
+  grid-area: name;
+}
+
+.email-box {
+  grid-area: email;
+}
+
+.btn-banner {
+  grid-area: button;
 }
 
 /*# sourceMappingURL=style.css.map */
