@@ -1,26 +1,33 @@
+
 .banner {
-  background-image: url(../../images/banner.png);
+  background-image: url(../images/banner.png);
   background-size: cover;
-  padding: 80px 0;
+  padding: 200px 0;
 }
 .banner-content {
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
 }
-.banner-content h1 {
-  margin: 0;
+.banner-content h2 {
+  margin: 10px;
+}
+.banner-content h3 {
+  margin: 40px 0 30px 0;
 }
 .form {
   grid-template-areas: "name email"
                        "button button";
-  grid-gap: 20px; 
+  grid-gap: 25px 30px; 
 }
 .name-box {
  grid-area: name;
 }
 .email-box {
  grid-area: email;
+}
+.form input {
+ padding: 8px 9px;
 }
 .btn-banner {
  grid-area: button;

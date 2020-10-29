@@ -1,4 +1,4 @@
-$bg-colors: ("black": #000, "darkgray": #3c3b3d, "limegreen":#34c176);
+$bg-colors: ("black": #000, "darkgray": #3c3b3d, "limegreen": #34c176, "transparent": rgba(255,255,255, 0.1));
 $text-colors: ("primary": #fff);
 * {
  box-sizing: border-box;
@@ -6,10 +6,23 @@ $text-colors: ("primary": #fff);
 body {
  font-family: Roboto, sans-serif;
  margin: 0;
+ line-height: 1.5;
+}
+h1, h2, h3, h4 {
+ margin: 0;
+}
+h1 {
+ font-size: 60px;
+}
+h2 {
+ font-size: 30px;
+}
+h3 {
+ font-size: 18px;
 }
 .flex-container {
  display: flex;
- justify-content: space-between;
+ justify-content: center;
  align-items: center;
 }
 .grid-container {
@@ -26,16 +39,19 @@ body {
 }
 .btn {
  border-radius: 5px;
- padding: 10px;
+ padding: 15px 20px;
+}
+.w-270 {
+ width: 270px;
 }
 .pdg-60-0 {
  padding: 60px 0;
 }
-.w-70 {
- width: 70%;
+.pdg-20-0 {
+ padding: 20px 0;
 }
-.font-s-12 {
-  font-size: 12px;
+.font-s-11 {
+  font-size: 11px;
 }
 .mrg-center {
  margin: 0 auto;
@@ -45,6 +61,7 @@ body {
 }
 a:link {
  text-decoration: none;
+ color: #fff;
 }
 @mixin text-color($name-color, $color) {
   .#{$name-color}-color {
