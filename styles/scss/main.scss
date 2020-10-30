@@ -1,4 +1,3 @@
-$subs-height: 580px;
 $btn-color: #fff;
 @mixin bg-image($wayimage, $sizeimage) {
  background-image: url(#{$wayimage});
@@ -7,17 +6,25 @@ $btn-color: #fff;
 .banner {
   @include bg-image("../images/banner.png", cover);
   padding: 200px 0;
-}
-.banner-content h2 {
-  margin: 10px;
-}
-.banner-content h3 {
-  margin: 40px 0 30px 0;
+  h2 {
+   margin: 10px;
+  }
+  h3 {
+   margin: 40px 0 30px 0;
+  }
 }
 .form {
   grid-template-areas: "name email"
                        "button button";
-  grid-gap: 25px 30px; 
+  grid-gap: 25px 30px;  
+ & input {
+ font-size: 14px;
+ font-weight: 700; 
+ padding: 17px 20px;
+ border-radius: 3px;
+ background-color: rgba(255,255,255, 0.1);
+ border: 2px solid rgba(255,255,255, 0.1);
+ }
 }
 .name-box {
  grid-area: name;
@@ -25,17 +32,10 @@ $btn-color: #fff;
 .email-box {
  grid-area: email;
 }
-.form input {
- font-size: 14px;
- font-weight: 700; 
- padding: 17px 20px;
- border-radius: 3px;
- background-color: rgba(255,255,255, 0.1);
- border: 2px solid rgba(255,255,255, 0.1);
-}
 .btn-banner {
  grid-area: button;
  color: $btn-color;
+ font-weight: 700;
 }
 
 .header-subs {
@@ -44,34 +44,53 @@ $btn-color: #fff;
 }
 .form-subscribes {
  flex-flow: row wrap;
- grid-gap: 75px;
+ grid-gap: 75px; 
+ sup {
+ margin-left: 10px;
+ }
+}
+%subscribes {
+  height: 580px;
+  flex: 0 1 25%; 
+  justify-content: space-between;
+  padding: 25px;
+  border-radius: 3px;
 }
 .subscribe-1 {
  @include bg-image("../images/subscribe_1.png", cover);
- height: $subs-height;
- flex: 0 1 30%;
+ @extend %subscribes;
 }
 .subscribe-2 {
  @include bg-image("../images/subscribe_2.png", cover);
- height: $subs-height; 
- flex: 0 1 30%;
+ @extend %subscribes;
 }
 .subscribe-3 {
  @include bg-image("../images/subscribe_3.png", cover);
- height: $subs-height; 
- flex: 0 1 30%;
-}
-.form-subscribes .subscribe-1, .subscribe-2, .subscribe-3 {
- justify-content: space-between;
- padding: 25px;
- border-radius: 3px;
-}
-.form-subscribes sup {
- margin-left: 10px;
+ @extend %subscribes;
 }
 .btn-subs {
  background-color: transparent;
  border: 4px solid #fff;
  color: $btn-color;
  margin: 40px 0;
+ font-size: 24px;
+}
+.description-subs {
+ font-size: 11px;
+ margin-bottom: 30px;
+}
+.additinfo-subs {
+ font-size: 24px;
+ text-align: center;
+}
+
+.news-container {
+ flex-flow: row wrap;
+}
+%flex-news {
+ flex: 1 1 40%;
+ grid-gap: 40px;
+}
+.img-news, .news {
+ @extend %flex-news;
 }
