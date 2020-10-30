@@ -8,8 +8,24 @@ body {
   line-height: 1.5;
 }
 
-p {
+h1, h2, h3, h4 {
   margin: 0;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 38px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 18px;
 }
 
 .flex-container {
@@ -64,24 +80,12 @@ p {
   font-size: 14px;
 }
 
-.font-s-18 {
-  font-size: 18px;
-}
-
 .font-s-24 {
   font-size: 24px;
 }
 
-.font-s-30 {
-  font-size: 30px;
-}
-
 .font-s-38 {
   font-size: 38px;
-}
-
-.font-s-60 {
-  font-size: 60px;
 }
 
 .text-center {
@@ -110,10 +114,6 @@ p {
 
 .mrg-100-0 {
   margin: 100px 0;
-}
-
-.mrg-0-100 {
-  margin: 0 100px;
 }
 
 .mrg-50-0 {
@@ -231,7 +231,7 @@ a:link {
 }
 
 .form-subscribes {
-  grid-template-areas: "free standart premium";
+  flex-flow: row wrap;
   grid-gap: 75px;
 }
 
@@ -239,18 +239,21 @@ a:link {
   background-image: url(../images/subscribe_1.png);
   background-size: cover;
   height: 580px;
+  flex: 0 1 30%;
 }
 
 .subscribe-2 {
   background-image: url(../images/subscribe_2.png);
   background-size: cover;
   height: 580px;
+  flex: 0 1 30%;
 }
 
 .subscribe-3 {
   background-image: url(../images/subscribe_3.png);
   background-size: cover;
   height: 580px;
+  flex: 0 1 30%;
 }
 
 .form-subscribes .subscribe-1, .subscribe-2, .subscribe-3 {

@@ -43,20 +43,23 @@ $btn-color: #fff;
  margin: 100px 0 50px 0;
 }
 .form-subscribes {
- grid-template-areas: "free standart premium";
+ flex-flow: row wrap;
  grid-gap: 75px;
 }
 .subscribe-1 {
  @include bg-image("../images/subscribe_1.png", cover);
  height: $subs-height;
+ flex: 0 1 30%;
 }
 .subscribe-2 {
  @include bg-image("../images/subscribe_2.png", cover);
- height: $subs-height;
+ height: $subs-height; 
+ flex: 0 1 30%;
 }
 .subscribe-3 {
  @include bg-image("../images/subscribe_3.png", cover);
- height: $subs-height;
+ height: $subs-height; 
+ flex: 0 1 30%;
 }
 .form-subscribes .subscribe-1, .subscribe-2, .subscribe-3 {
  justify-content: space-between;
