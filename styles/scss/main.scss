@@ -93,7 +93,7 @@ $btn-color: #fff;
 .img-news {
  @extend %flex-news;
  width: 430px;
- height: 400px;
+ height: 340px;
 }
 .news {
  @extend %flex-news;
@@ -109,6 +109,8 @@ $btn-color: #fff;
 }
 .mobile-img {
  @extend %flex-news;
+ width: 200px;
+ height: 200px;
 }
 .btn-dowland {
  background-color: #ff4157;
