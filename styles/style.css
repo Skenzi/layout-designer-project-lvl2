@@ -293,9 +293,9 @@ a:link {
   text-align: center;
 }
 
-.news-container {
+.container {
   flex-flow: row wrap;
-  padding: 25px 80px;
+  padding: 25px 20px;
 }
 
 .mobile-img, .mobile-text, .news, .img-news {
@@ -315,14 +315,22 @@ a:link {
   padding: 20px 30px;
 }
 
+.mobile-text > p {
+  padding: 10px;
+}
+
 .mobile-img {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 400px;
 }
 
 .btn-dowland {
   background-color: #ff4157;
   border-radius: 50px;
+}
+
+.footer {
+  background-image: linear-gradient(89deg, #5328a1 32, 8%, #95390c 81, 56%);
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -82,9 +82,9 @@ $btn-color: #fff;
  text-align: center;
 }
 
-.news-container {
+.container {
  flex-flow: row wrap;
- padding: 25px 80px;
+ padding: 25px 20px;
 }
 %flex-news {
  flex: 1 1 40%;
@@ -104,13 +104,18 @@ $btn-color: #fff;
  font-size: 12px;
  padding: 20px 30px;
 }
+
+
 .mobile-text {
  @extend %flex-news;
+ > p {
+  padding: 10px;
+ }
 }
 .mobile-img {
  @extend %flex-news;
- width: 200px;
- height: 200px;
+ width: 150px;
+ height: 400px;
 }
 .btn-dowland {
  background-color: #ff4157;
