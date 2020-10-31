@@ -6,12 +6,6 @@ $btn-color: #fff;
 .banner {
   @include bg-image("../images/banner.png", cover);
   padding: 200px 0;
-  h2 {
-   margin: 10px;
-  }
-  h3 {
-   margin: 40px 0 30px 0;
-  }
   div {
   text-align: center;
   }
@@ -39,6 +33,7 @@ $btn-color: #fff;
  grid-area: button;
  color: $btn-color;
  font-weight: 700;
+ background-color: #34c176;
 }
 
 .header-subs {
@@ -89,17 +84,16 @@ $btn-color: #fff;
 
 .news-container {
  flex-flow: row wrap;
- padding: 25px;
+ padding: 25px 80px;
 }
 %flex-news {
  flex: 1 1 40%;
- grid-gap: 40px;
  padding: 30px;
 }
 .img-news {
  @extend %flex-news;
- width: 560px;
- height: 280px;
+ width: 430px;
+ height: 400px;
 }
 .news {
  @extend %flex-news;
@@ -108,4 +102,15 @@ $btn-color: #fff;
  border: 1px solid #e9e9e9;
  color: #8c8c8c;
  font-size: 12px;
+ padding: 20px 30px;
+}
+.mobile-text {
+ @extend %flex-news;
+}
+.mobile-img {
+ @extend %flex-news;
+}
+.btn-dowland {
+ background-color: #ff4157;
+ border-radius: 50px;
 }

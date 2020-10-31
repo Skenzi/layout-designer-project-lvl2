@@ -1,5 +1,5 @@
-$bg-colors: ("black": #000, "darkgray": #3c3b3d, "limegreen": #34c176);
-$colors: ("primary": #fff);
+$bg-colors: ("black": #000, "darkgray": #3c3b3d);
+$colors: ("primary": #fff, "orange": #f89202, "grey": #555, "light-grey": #8c8c8c);
 * {
  box-sizing: border-box;
 }
@@ -23,6 +23,9 @@ h3 {
 h4 {
   font-size: 18px
 }
+img, img + span {
+ vertical-align: middle;
+}
 .flex-container {
  display: flex;
  justify-content: center;
@@ -44,12 +47,13 @@ h4 {
 .btn {
  border-radius: 5px;
  padding: 20px 80px;
+ color: #fff;
 }
 .pdg-60-0 {
  padding: 60px 0;
 }
-.pdg-20-0 {
- padding: 20px 0;
+.pdg-0-80 {
+ padding: 0 80px;
 }
 @mixin font-size($size, $unit) {
   .font-s-#{$size} {
@@ -64,20 +68,23 @@ h4 {
 .text-center {
  text-align: center;
 }
-.f-weight-700 {
- font-weight: 700;
-}
 .mrg-center {
  margin: 0 auto;
 }
 .mrg-t-100 {
  margin-top: 100px;
 }
-.mrg-r-10 {
- margin-right: 10px;
+.mrg-0-20 {
+ margin: 0 20px;
+}
+.mrg-0-40 {
+ margin: 0 40px;
 }
 .mrg-40-0-30-0 {
   margin: 40px 0 30px 0;
+}
+.mrg-30-0-80-0 {
+ margin: 30px 0 80px 0;
 }
 .mrg-100-0 {
   margin: 100px 0;
@@ -87,7 +94,7 @@ h4 {
 }
 a:link {
  text-decoration: none;
- color: #fff;
+ color: #808080;
 }
 @mixin bg-color($name-color, $color) {  
   .#{$name-color}-bgcolor {
