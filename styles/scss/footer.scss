@@ -25,14 +25,11 @@
   }
 }
 
-.low-footer {
-
-}
 .low-nav {
   li {
     display: inline-block;
   }
-  a:nth-child(1n+2) {
+  li:nth-child(1n+2) {
     padding-left: 50px;
   }
 }
