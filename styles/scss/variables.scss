@@ -1,5 +1,5 @@
-$bg-colors: ("black": #000, "darkgray": #3c3b3d);
-$colors: ("primary": #fff, "orange": #f89202, "grey": #555, "light-grey": #8c8c8c);
+$bg-colors: ("black": #000, "darkgray": #3c3b3d, "violet": #5328a1, "darkorange":#95390c);
+$colors: ("primary": #fff, "orange": #f89202, "grey": #555, "lightgrey": #8c8c8c);
 * {
  box-sizing: border-box;
 }
@@ -7,9 +7,12 @@ body {
  font-family: Roboto, sans-serif;
  margin: 0;
  line-height: 1.5;
+ color: #fff;
+ background-color: #000;
 }
-h1, h2, h3, h4 {
+h1, h2, h3, h4, ul {
  margin: 0;
+ padding: 0;
 }
 h1 {
  font-size: 60px;
@@ -26,34 +29,41 @@ h4 {
 img, img + span {
  vertical-align: middle;
 }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+}
 .flex-container {
  display: flex;
- justify-content: center;
+ justify-content: space-between;
  align-items: center;
+ flex-flow: row wrap;
 }
 .flex-column {
  flex-flow: column wrap;
 }
 .grid-container {
  display: grid;
- align-items: center; 
+ align-items: center;
 }
 .absolute {
  position: absolute;
+}
+.relative {
+  position: relative;
 }
 .nav {
  list-style-type: none;
 }
 .btn {
  border-radius: 5px;
- padding: 20px 80px;
+ padding: 20px 30px;
  color: #fff;
+ border: none;
 }
-.pdg-60-0 {
- padding: 60px 0;
-}
-.pdg-0-80 {
- padding: 0 80px;
+.pdg-50-60 {
+  padding: 50px 60px;
 }
 @mixin font-size($size, $unit) {
   .font-s-#{$size} {
@@ -68,43 +78,30 @@ img, img + span {
 .text-center {
  text-align: center;
 }
-.mrg-center {
- margin: 0 auto;
-}
-.mrg-t-100 {
- margin-top: 100px;
-}
 .mrg-b-60 {
  margin-bottom: 60px;
 }
-.mrg-0-20 {
- margin: 0 20px;
-}
-.mrg-0-40 {
- margin: 0 40px;
+.mrg-0-28 {
+ margin: 0 28px;
 }
 .mrg-40-0-30-0 {
   margin: 40px 0 30px 0;
 }
-.mrg-30-0-80-0 {
- margin: 30px 0 80px 0;
-}
-.mrg-100-0 {
-  margin: 100px 0;
-}
-.mrg-50-0 {
- margin: 50px 0;
-}
-a:link {
+a {
+  &:link {
  text-decoration: none;
  color: #808080;
 }
-@mixin bg-color($name-color, $color) {  
+  &:visited {
+    color: #3c3c3c;
+  }
+}
+@mixin bg-color($name-color, $color) {
   .#{$name-color}-bgcolor {
    background-color: $color;
   }
 }
-@mixin color($name-color, $color) {  
+@mixin color($name-color, $color) {
   .#{$name-color}-color {
    color: $color;
   }
