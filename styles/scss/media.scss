@@ -1,21 +1,9 @@
-@media screen and (max-width: 1320px) {
-  .header-nav {
-      margin: 0 30px 0 30px;
-      font-size: 14px;
-  }
-}
-
-
-@media screen and (max-width: 1280px) {
-  .img-news {
-   max-width: 550px;
-  }
-}
-
-
 @media screen and (max-width: 1020px) {
-  .container {
-    padding: 30px;
+  .pdg-0-50 {
+    padding: 0 30px;
+  }
+  .height-footer, .low-footer {
+    padding: 100px 30px;
   }
 //--------------------------------------------------------------------
   .header-nav {
@@ -42,20 +30,24 @@
     flex-flow: row wrap;
     justify-content: center;
   }
-  .subscribe-1 {
-    margin-right: 50px;
-  }
   .description-subs {
     max-width: 300px;
   }
   %subscribes {
     flex: 0 1 40%;
   }
+  .body-subs {
+    padding-top: 160px;
+  }
   .img-news {
     order: 1;
+    margin-bottom: 20px;
   }
   .news {
     order: 2;
+  }
+  .btn-news {
+    padding: 20px 120px;
   }
   .mobile-img {
   order: -1;
@@ -102,6 +94,12 @@
 .main-banner {
     padding: 150px 20px 90px 20px;
   }
+  .pdg-0-50 {
+    padding: 0 20px;
+  }
+  .pdg-50-100-50 {
+    padding: 0 20px 100px 20px;
+  }
 }
 
 
@@ -111,6 +109,9 @@
   }
   .subscribe-1 {
     margin-right: 0;
+  }
+  .mobile-text {
+    text-align: center;
   }
   .btn-dowland {
    padding: 20px 300px;
@@ -152,16 +153,20 @@
       margin-right: 0;
     }
   }
+
 //-------------------------------------------------------
   .low-footer > p {
-    margin-top: 50px;
+    margin-top: 100px;
   }
 }
 
 
 @media screen and (max-width: 660px) {
-  .container {
-    padding: 20px;
+  .pdg-0-50 {
+    padding: 0 20px;
+  }
+  .height-footer, .low-footer {
+    padding: 100px 20px;
   }
 //--------------------------------------------------------------------
   .header-nav li {
@@ -174,8 +179,7 @@
                          "button";
   }
   .img-news {
-    height: 300px;
-    width: 410px;
+    width: 380px;
   }
   %subscribes {
     flex: 0 1 90%;
@@ -189,6 +193,10 @@
       padding-left: 15px;
     }
   }
+//-------------------------------------------------------
+  .imgs-catalog {
+    width: 210px;
+  }
 }
 
 
@@ -196,8 +204,14 @@
   .btn-banner-catalog:nth-child(1) {
       margin-bottom: 20px;
     }
+ .card-catalog {
+   flex: 0 1 40%;
+   padding: 50px 0 0 0;
+   &:nth-child(2n + 1) {
+   padding: 50px 15px 0 0;
+ }
   }
-
+ }
 
 @media screen and (max-width: 550px) {
   .pdg-50-60 {
@@ -207,8 +221,25 @@
   .btn-dowland {
    padding: 20px 190px;
   }
+//-------------------------------------------------------
+  .btn-banner-catalog {
+    width: 300px;
+  }
+  .imgs-catalog {
+    width: 180px;
+  }
+  .card-catalog {
+    &:first-child {
+      padding: 0 15px 0 0;
+    }
+    &:nth-child(2) {
+    padding: 0;
+  }
+   }
+   .track-box:first-child {
+     margin: 0;
+   }
 }
-
 
 @media screen and (max-width: 500px) {
   h1 {
@@ -221,7 +252,7 @@
     font-size: 25px;
   }
   h4 {
-    font-size: 15px;
+    font-size: 14px;
   }
   .mrg-0-28 {
     margin: 0 20px;
@@ -230,11 +261,11 @@
   .additinfo-subs {
     font-size: 16px;
   }
+  .btn-news {
+    padding: 20px 160px;
+  }
   .btn-dowland {
    padding: 20px 150px;
-  }
-  .album-card {
-    margin: 20px 0 0 0;
   }
 //-------------------------------------------------------
   .footer-element {
@@ -257,8 +288,15 @@
 
 @media screen and (max-width: 430px) {
   .catalog-banner {
-    padding: 250px 0 30px 0;
+    padding: 250px 20px 30px 20px;
   }
+//-------------------------------------------------------
+.btn-news {
+  padding: 20px 120px;
+}
+.imgs-catalog {
+  width: 130px;
+}
 //-------------------------------------------------------
   .networks {
     a:nth-child(1n+2) {
@@ -270,10 +308,16 @@
 
 @media screen and (max-width: 400px) {
   h1 {
-   font-size: 40px;
+   font-size: 30px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 18px;
   }
   h4 {
-   font-size: 17px;
+   font-size: 12px;
   }
   .mrg-40-0-30-0 {
     margin: 20px 0 15px 0;
@@ -288,7 +332,7 @@
     font-size: 20px;
   }
   .font-s-24 {
-    font-size: 19px;
+    font-size: 16px;
   }
 //--------------------------------------------------------------------
   .header-areas {
@@ -323,17 +367,21 @@
   padding: 290px 20px 50px 20px;
 }
   .btn-subs {
-    font-size: 18px;
+    font-size: 12px;
+    padding: 20px 65px;
   }
   .additinfo-subs {
-    font-size: 18px;
+    font-size: 12px;
   }
   %subscribes {
     height: 480px;
   }
   .img-news {
     height: 210px;
-    width: 310px;
+    width: 290px;
+  }
+  .btn-news {
+    padding: 20px 100px;
   }
   .mobile-img {
     width: 200px;
@@ -341,12 +389,16 @@
   .btn-dowland {
    padding: 20px 105px;
   }
+//-------------------------------------------------------
+  .imgs-catalog {
+  width: 130px;
+}
 }
 
 
 @media screen and (max-width: 340px) {
-  .cover {
-    margin-right: 10px;
+  .btn-banner-catalog {
+    width: 250px;
   }
 }
 

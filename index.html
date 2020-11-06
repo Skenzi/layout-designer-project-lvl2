@@ -8,19 +8,19 @@
   <link href="styles/style.css" rel="stylesheet" type="text/css">
  </head>
 
- <body>
+ <body class="index-page">
 <!--                                   -->
    <header class="absolute header-position">
 
     <div class="flex-container header-areas container">
 
      <section class="logo-area">
-      <img src="images/logo.svg" alt="Logo" class="logo"><span>MUSIC BOX</span>
+      <img src="images/logo.svg" alt="Logo" class="logo"><span class="logo-text">MUSIC BOX</span>
      </section>
 
       <section class="nav-area">
        <ul class="nav header-nav">
-	 <li><a href="index.html">ГЛАВНАЯ</a></li>
+	 <li><a href="index.html" class="home-link">ГЛАВНАЯ</a></li>
 	 <li><a href="catalog.html">КАТАЛОГ</a></li>
 	 <li><a href="#">ИСПОЛНИТЕЛИ</a></li>
    <li><a href="#">КОНТАКТЫ</a></li>
@@ -54,14 +54,15 @@
      </section>
 
 <!--                                    -->
-  <section>
+
+  <section class="pdg-0-50">
     <div class="flex-container flex-column container">
-	 <h2 class="text-center">ФОРМЫ ПОДПИСКИ</h2>
-	 <form class="flex-container form-subscribes text-center" action="#" method="POST">
+	 <h2 class="text-center pdg-100-0-50-0">ФОРМЫ ПОДПИСКИ</h2>
+	 <form class="flex-container text-center" action="#" method="POST">
 		 <div class="subscribe-1 flex-container flex-column">
 	       <div class="font-s-24">БЕСПЛАТНАЯ</div>
-		  <div class="flex-container flex-column">
-			  <p class="font-s-60">0<sup class="font-s-30">РУБ.</sup></p>
+		  <div class="flex-container flex-column body-subs">
+			  <p class="price-sub">0<sup class="sup-text">РУБ.</sup></p>
 		   <button name="freesub" class="btn btn-subs">ОФОРМИТЬ</button>
 		   <p class="description-subs"> Оплата в месяц. Бесплатный тариф предоставляет доступ ко всей коллекции музыки. Присутсвует реклама</p>
 		  </div>
@@ -69,8 +70,8 @@
 
 		 <div class="subscribe-2 flex-container flex-column">
 		  <div class="font-s-24">СТАНДАРТНАЯ</div>
-		  <div class="flex-container flex-column">
-			  <p class="font-s-60">250<sup class="font-s-30">РУБ.</sup></p>
+		  <div class="flex-container flex-column body-subs">
+			  <p class="price-sub">250<sup class="sup-text">РУБ.</sup></p>
 		   <button name="standsub" class="btn btn-subs">ОФОРМИТЬ</button>
 		   <p class="description-subs">Оплата в месяц. Стандартный тариф предоставляет доступ ко всей коллекции музыки в среднем качестве</p>
 		  </div>
@@ -78,9 +79,9 @@
 
 		 <div class="subscribe-3 flex-container flex-column">
 	          <div class="font-s-24">ПРЕМИУМ</div>
-		  <div class="flex-container flex-column">
-			  <p class="font-s-60">500<sup class="font-s-30">РУБ.</sup></p>
-		   <button name="premsub" class="btn btn-subs font-s-24">ОФОРМИТЬ</button>
+		  <div class="flex-container flex-column body-subs">
+			  <p class="price-sub">500<sup class="sup-text">РУБ.</sup></p>
+		   <button name="premsub" class="btn btn-subs">ОФОРМИТЬ</button>
 		   <p class="description-subs">Оплата в месяц. Премиум тариф предоставляет доступ ко всей коллекции музыки в высоком качестве</p>
 		  </div>
 		 </div>
@@ -91,14 +92,14 @@
 
 
 <!--                              -->
-     <section>
+     <section class="pdg-0-50">
        <div class="container">
-      <h2 class="text-center">ПОСЛЕДНИЕ НОВОСТИ</h2>
+      <h2 class="text-center pdg-100-0-50-0">ПОСЛЕДНИЕ НОВОСТИ</h2>
 
-        <div class="flex-container main-container">
+        <div class="flex-container">
 	      <img src="images/Music to Be Murdered By.png" alt="Eminem" class="img-news">
 	      <div class="news">
-		      <h3>Music to Be Murdered By</h3>
+		      <p class="header-news">Music to Be Murdered By</p>
 		      <div>
 		      <p class="lightgrey-color">Новый альбом Eminem &laquo;Music to Be Murdered By&raquo; уже доступен в нашем сервисе.</p>
 		      <p class="lightgrey-color">На альбоме вас ждёт 20 новых треков.</p>
@@ -111,9 +112,9 @@
         </div>
       </div>
 
-      <div class="flex-container main-container">
+      <div class="flex-container mrg-t-40">
         <div class="news">
-		      <h3>Ordinary Man</h3>
+		      <p class="header-news">Ordinary Man</p>
 		      <div>
 		      <p class="lightgrey-color">Легенда рока Оззи Озборн спустя 10 лет выпустил новый альбом Ordinary Man.</p>
 		      <p class="lightgrey-color">Слушайте в числе первых на Music Box.</p>
@@ -130,10 +131,10 @@
   </section>
 
 <!--                           -->
-     <section>
+     <section class="pdg-50-100-50">
        <div class="container">
-      <h2 class="text-center">МОБИЛЬНОЕ ПРИЛОЖЕНИЕ</h2>
-      <div class="flex-container main-container">
+      <h2 class="text-center pdg-100-0-50-0">МОБИЛЬНОЕ ПРИЛОЖЕНИЕ</h2>
+      <div class="flex-container">
 	     <div class="mobile-text">
 	      <p class="lightgrey-color">Воспользуйтесь нашим мобильным приложением. Оно позволит слушать музыку с любого устройства на базе операционных систем  Android и iOS</p>
 	      <p class="lightgrey-color">С тарифом &laquo;Премиум&raquo; приложение позволит скачивать все композиции из нашей коллекции. Вы можете слушать музыку даже без интернета</p>
@@ -147,64 +148,65 @@
    </main>
 
    <footer class="footer">
-     <section class="pdg-50-60 flex-container container height-footer">
+     <section class="flex-container container height-footer">
 
-	     <div class="footer-element">
-	      <h4>О нас</h4>
-	      <ul class="nav height-nav">
-		      <li><a href="#">История компании</a></li>
-		      <li><a href="#">Карьера</a></li>
-		      <li><a href="#">Особенности</a></li>
-		      <li><a href="#">Пресса</a></li>
-	      </ul>
-	     </div>
+       <div class="footer-element">
+        <p class="headers-footer">О нас</p>
+        <ul class="nav height-nav">
+          <li><a href="#">История компании</a></li>
+          <li><a href="#">Карьера</a></li>
+          <li><a href="#">Особенности</a></li>
+          <li><a href="#">Пресса</a></li>
+        </ul>
+       </div>
 
-	     <div class="footer-element">
-	      <h4>Поддержка</h4>
-	      <ul class="nav height-nav">
-		      <li><a href="#">База знаний</a></li>
-		      <li><a href="#">Тарифы</a></li>
-		      <li><a href="#">Мобильное приложение</a></li>
-		      <li><a href="#">Условия использования</a></li>
-	      </ul>
-	     </div>
+       <div class="footer-element">
+        <p class="headers-footer">Поддержка</p>
+        <ul class="nav height-nav">
+          <li><a href="#">База знаний</a></li>
+          <li><a href="#">Тарифы</a></li>
+          <li><a href="#">Мобильное приложение</a></li>
+          <li><a href="#">Условия использования</a></li>
+        </ul>
+       </div>
 
-	     <div class="footer-element">
-	      <h4>Контакты</h4>
-	      <ul class="nav height-nav">
- 	       <li>hello@music.box</li>
-	       <li>Russia, Moscow, Music Box studio</li>
-	       <li>+7 499 999 99 99</li>
-	      </ul>
-	     </div>
+       <div class="footer-element">
+        <p class="headers-footer">Контакты</p>
+        <ul class="nav height-nav">
+         <li>hello@music.box</li>
+         <li>Russia, Moscow, Music Box studio</li>
+         <li>+7 499 999 99 99</li>
+        </ul>
+       </div>
 
-	     <div class="footer-element">
-	      <h4>Подписывайся</h4>
+       <div class="footer-element">
+        <p class="headers-footer">Подписывайся</p>
         <p class="networks">
-	      <a href="#"> <img src="images/Google+.png" alt="Google"></a>
-		     <a href="#"><img src="images/Twitter.png" alt="Twitter"></a>
-		      <a href="#"><img src="images/Facebook.png" alt="Facebook"></a>
-		      <a href="#"><img src="images/Instagram.png" alt="Instagram"></a>
+        <a href="#"> <img src="images/Google+.png" alt="Google"></a>
+         <a href="#"><img src="images/Twitter.png" alt="Twitter"></a>
+          <a href="#"><img src="images/Facebook.png" alt="Facebook"></a>
+          <a href="#"><img src="images/Instagram.png" alt="Instagram"></a>
         </p>
-	     </div>
+       </div>
 
      </section>
 
      <hr />
 
-     <section class="pdg-50-60 container low-footer flex-container">
+     <section class="container low-footer flex-container">
 
        <ul class="nav low-nav">
-	       <li><a href="#">Магазин</a></li>
-		     <li><a href="#">Обслуживание</a></li>
-		     <li><a href="#">Блог</a></li>
-		     <li><a href="#">Поддержка</a></li>
-	       <li><a href="#">Контакты</a></li>
+         <li><a href="#">Магазин</a></li>
+         <li><a href="#">Обслуживание</a></li>
+         <li><a href="#">Блог</a></li>
+         <li><a href="#">Поддержка</a></li>
+         <li><a href="#">Контакты</a></li>
        </ul>
       <p>&copy;2011-2020 Music Box Inc.</p>
      </section>
 
    </footer>
+
 
  </body>
 </html>
