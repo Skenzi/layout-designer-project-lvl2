@@ -7,7 +7,7 @@ $btn-color: #fff;
 // --------------------Index Styles-----------------------------------------------
 
 // --------Banner styles----------------
-.main-banner {
+.home-banner {
   @include bg-image("../images/banner.png", cover);
   background-position: center;
   padding: 200px 50px;

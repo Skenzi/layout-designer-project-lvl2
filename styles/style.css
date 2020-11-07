@@ -28,7 +28,7 @@ img, img + span {
   vertical-align: middle; }
 
 .container {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto; }
 
 .flex-container {
@@ -171,12 +171,12 @@ a:visited {
   border: none;
   background-color: transparent; }
 
-.main-banner {
+.home-banner {
   background-image: url(../images/banner.png);
   background-size: cover;
   background-position: center;
   padding: 200px 50px; }
-  .main-banner div {
+  .home-banner div {
     text-align: center; }
 
 .form-banner {
@@ -419,7 +419,7 @@ a:visited {
   .header-areas {
     padding: 20px; }
 
-  .main-banner {
+  .home-banner {
     padding: 150px 20px 90px 20px; }
 
   .pdg-0-50 {
@@ -567,7 +567,7 @@ a:visited {
       padding: 25px 0 0 0; } }
 @media screen and (max-width: 430px) {
   .catalog-banner {
-    padding: 250px 20px 30px 20px; }
+    padding: 350px 20px 90px 20px; }
 
   .btn-news {
     padding: 20px 120px; }
@@ -629,8 +629,8 @@ a:visited {
       display: block;
       padding: 5px; }
 
-  .main-banner {
-    padding: 290px 20px 50px 20px; }
+  .home-banner {
+    padding: 350px 20px 90px 20px; }
 
   .btn-subs {
     font-size: 12px;
