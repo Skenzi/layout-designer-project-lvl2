@@ -4,14 +4,14 @@
   right: 0;
 }
 .header-areas {
-  padding: 20px 50px;
-  flex-flow: row wrap;
+  padding: 20px 0;
+}
+.nav-area {
+  margin: 0 310px 0 100px;
 }
 .header-nav {
-  margin: 0 90px 0 50px;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
-  padding-top: 3px;
   li {
   display: inline-block;
   padding-right: 40px;
@@ -20,7 +20,10 @@
 .search-box {
   border: none;
   border-radius: 50px;
-  padding: 5px 8px;
+  padding: 8px 14px;
+  width: 280px;
+  font-size: 11px;
+  font-weight: 700;
 }
 .logo {
   width: 20px;
@@ -28,13 +31,6 @@
   margin-right: 5px;
 }
 .logo-text {
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
-}
-.loupe {
-  width: 30px;
-  right: 2px;
-  top: 3px;
-  border: none;
-  background-color: transparent;
 }

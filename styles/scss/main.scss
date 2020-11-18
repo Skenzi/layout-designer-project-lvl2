@@ -1,4 +1,3 @@
-$btn-color: #fff;
 @mixin bg-image($wayimage, $sizeimage) {
  background-image: url(#{$wayimage});
  background-size: $sizeimage;
@@ -10,10 +9,8 @@ $btn-color: #fff;
 .home-banner {
   @include bg-image("../images/banner.png", cover);
   background-position: center;
-  padding: 200px 50px;
-  div {
+  padding: 270px 50px 250px 50px;
   text-align: center;
-  }
 }
 .form-banner {
   grid-template-areas: "name email"
@@ -36,7 +33,7 @@ $btn-color: #fff;
 }
 .btn-banner-main {
  grid-area: button;
- color: $btn-color;
+ width: 570px;
  font-weight: 700;
  background-color: #34c176;
 }
@@ -44,23 +41,28 @@ $btn-color: #fff;
 // --------Subscribes styles-----------
 %subscribes {
   height: 580px;
-  flex: 0 1 30%;
+  flex: 0 1 350px;
   justify-content: space-between;
-  padding: 25px 10px;
+  padding: 25px 20px 65px 20px;
   border-radius: 8px;
   margin-bottom: 50px;
 }
 .subscribe-1 {
  @include bg-image("../images/subscribe_1.png", cover);
  @extend %subscribes;
+ margin-right: 75px;
 }
 .subscribe-2 {
  @include bg-image("../images/subscribe_2.png", cover);
  @extend %subscribes;
+ margin-right: 75px;
 }
 .subscribe-3 {
  @include bg-image("../images/subscribe_3.png", cover);
  @extend %subscribes;
+}
+.body-subs {
+  margin-top: 210px;
 }
 .price-sub {
   font-size: 60px;
@@ -73,15 +75,15 @@ $btn-color: #fff;
 .btn-subs {
  background-color: transparent;
  border: 4px solid #fff;
- color: $btn-color;
  margin: 40px 0;
+ padding: 20px 80.5px;
  font-size: 24px;
 }
 .description-subs {
  font-size: 11px;
 }
 .additinfo-subs {
- font-size: 24px;
+ font-size: 22px;
  text-align: center;
 }
 
@@ -89,36 +91,51 @@ $btn-color: #fff;
 .main-container {
  margin-top: 40px;
 }
-.header-news {
+.subheader-news {
   font-size: 30px;
 }
 %flex-news-text {
- flex: 0 1 40%;
+ flex: 1 1 40%;
 }
 %flex-news-img {
-  flex: 0 1 30%;
+  flex: 1 1 30%;
+}
+.header-news {
+  padding: 100px 0 50px 0;
 }
 .img-news {
  @extend %flex-news-img;
- max-width: 530px;
+ max-width: 566px;
+ max-height: 280px
 }
 .news {
  @extend %flex-news-text;
+}
+.text-news {
+  line-height: 2;
 }
 .btn-news {
  border: 1px solid #e9e9e9;
  color: #8c8c8c;
  font-size: 12px;
+ padding: 20px 45px;
 }
 
 //--------Mobile app Info Styles------------
+.header-mobile {
+  padding: 100px 0 50px 0;
+}
 .mobile-text {
  flex: 0 1 50%;
+ margin-right: 210px;
+}
+.mobile-img {
+  width: 295px;
 }
 .btn-dowland {
  background-color: #ff4157;
  border-radius: 50px;
- padding: 20px 80px;
+ width: 174px;
 }
 
 //----------------Catalog page styles------------------------------------------------------------

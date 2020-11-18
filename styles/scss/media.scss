@@ -1,4 +1,37 @@
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1300px) {
+  .subscribe-1, .subscribe-2 {
+    margin-right: 60px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .header-areas {
+    padding: 20px 50px;
+  }
+  .nav-area {
+    margin: 0 110px 0 50px;
+  }
+  .form-subscribes {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .news-container {
+    flex-flow: column;
+    justify-content: center;
+  }
+  .img-news {
+    order: 1;
+    margin: 0 0 20px 0;
+  }
+  .news {
+    order: 2;
+  }
+  .subscribe-2 {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 1025px) {
   .pdg-0-50 {
     padding: 0 30px;
   }
@@ -6,55 +39,43 @@
     padding: 100px 30px;
   }
 //--------------------------------------------------------------------
-  .header-nav {
-    margin: 0 40px 0 20px;
-  }
+.nav-area {
+  margin: 0 80px 0 50px;
+}
   .low-nav {
     li:nth-child(1n+2) {
       padding-left: 25px;
     }
   }
+  .body-mobile {
+    flex-flow: column;
+    align-items: center;
+  }
+  .mobile-img {
+  order: -1;
+ }
+ .mobile-text {
+   margin-right: 0;
+   text-align: center;
+ }
+ .btn-dowland {
+  width: 280px;
+ }
 }
 
 
 @media screen and (max-width: 980px) {
-  .flex-container {
-    flex-flow: column;
-  }
 //--------------------------------------------------------------------
   .header-areas {
     flex-flow: row wrap;
   }
 //--------------------------------------------------------------------
-  .form-subscribes {
-    flex-flow: row wrap;
-    justify-content: center;
-  }
   .description-subs {
     max-width: 300px;
-  }
-  %subscribes {
-    flex: 0 1 40%;
-  }
-  .body-subs {
-    padding-top: 160px;
-  }
-  .img-news {
-    order: 1;
-    margin-bottom: 20px;
-  }
-  .news {
-    order: 2;
   }
   .btn-news {
     padding: 20px 120px;
   }
-  .mobile-img {
-  order: -1;
- }
- .btn-dowland {
-  padding: 20px 150px;
- }
  .height-footer, .low-footer {
    flex-flow: row wrap;
  }
@@ -65,15 +86,15 @@
 
 
 @media screen and (max-width: 930px) {
-  .header-nav li {
-     padding-right: 10px;
-   }
 //-------------------------------------------------------
   .footer-element {
     flex: 0 1 40%;
     &:nth-child(1n+3) {
       margin-top: 40px;
     }
+  }
+  .mobile-img {
+    margin-bottom: 50px;
   }
   }
 
@@ -86,13 +107,16 @@
 
 
 @media screen and (max-width: 829px) {
+  .pdg-100-50-0-50 {
+    padding: 100px 20px 0 20px;
+  }
 //--------------------------------------------------------------------
   .header-areas {
     padding: 20px;
   }
 //-----------------------------------------------------------------------------------------------------------------------------
 .home-banner {
-    padding: 150px 20px 90px 20px;
+    padding: 265px 20px 90px 20px;
   }
   .pdg-0-50 {
     padding: 0 20px;
@@ -104,48 +128,55 @@
 
 
 @media screen and (max-width: 780px) {
-  .form-subscribes {
-    flex-flow: column;
+  h1 {
+    font-size: 40px;
   }
-  .subscribe-1 {
-    margin-right: 0;
+  h2 {
+    font-size: 22px;
   }
-  .mobile-text {
-    text-align: center;
+  h3 {
+    font-size: 16px;
   }
-  .btn-dowland {
-   padding: 20px 300px;
-  }
-}
-
-
-@media screen and (max-width: 720px) {
   .header-areas {
-    justify-content: center;
+    justify-content: space-between;
   }
   .logo-area, .search-area {
-    flex: 1 1 40%;
+    flex: 0 1 40%;
     order: 1;
   }
   .nav-area {
     order: 2;
-    margin-top: 20px;
-  }
-  .header-nav {
-    margin: 0;
+    flex: 0 1 100%;
+    text-align: center;
+    margin: 20px 0 0 0;
     padding: 0;
     li {
       display: inline-block;
       padding-right: 20px;
     }
   }
+  .form-subscribes {
+    flex-flow: column;
+  }%subscribes {
+    flex: 0 1 280px;
+  }
+  .subscribe-1, .subscribe-2 {
+    margin-right: 0;
+  }
+  .mobile-text {
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width: 720px) {
   .search-area {
     display: flex;
     justify-content: flex-end;
   }
 //--------------------------------------------------------------------
-  .btn-dowland {
-   padding: 20px 260px;
+.home-banner {
+    padding: 265px 20px 45px 20px;
   }
   .track-box {
     flex: 1 1 100%;
@@ -169,23 +200,12 @@
     padding: 100px 20px;
   }
 //--------------------------------------------------------------------
-  .header-nav li {
-      padding-right: 7px;
-    }
+
 //---------------------------------------------------------------------------------------------------------------------------
   .form-banner {
     grid-template-areas: "name"
                          "email"
                          "button";
-  }
-  .img-news {
-    width: 380px;
-  }
-  %subscribes {
-    flex: 0 1 90%;
-  }
-  .btn-dowland {
-   padding: 20px 220px;
   }
 //-------------------------------------------------------
   .low-nav {
@@ -200,7 +220,19 @@
 }
 
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 12px;
+  }
+  .btn-banner-main {
+    width: 280px;
+  }
   .btn-banner-catalog:nth-child(1) {
       margin-bottom: 20px;
     }
@@ -213,13 +245,12 @@
   }
  }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 560px) {
   .pdg-50-60 {
     padding: 30px;
   }
-//-------------------------------------------------------
-  .btn-dowland {
-   padding: 20px 190px;
+  .mrg-0-21 {
+   margin: 0 38px;
   }
 //-------------------------------------------------------
   .btn-banner-catalog {
@@ -242,30 +273,25 @@
 }
 
 @media screen and (max-width: 500px) {
-  h1 {
-    font-size: 40px;
-  }
-  h2 {
-    font-size: 27px;
-  }
-  h3 {
-    font-size: 25px;
-  }
   h4 {
-    font-size: 14px;
+    font-size: 20px;
   }
   .mrg-0-28 {
     margin: 0 20px;
   }
 //-------------------------------------------------------
   .additinfo-subs {
-    font-size: 16px;
+    font-size: 12px;
   }
-  .btn-news {
-    padding: 20px 160px;
+  .header-news {
+    padding: 44px 0 50px 0;
   }
-  .btn-dowland {
-   padding: 20px 150px;
+  .header-mobile {
+    padding: 90px 0 50px 0;
+  }
+  .img-news {
+    height: 140px;
+    width: 280px;
   }
 //-------------------------------------------------------
   .footer-element {
@@ -287,13 +313,30 @@
 
 
 @media screen and (max-width: 430px) {
+  .header-areas {
+    flex-flow: column;
+    align-items: flex-start;
+  }
+  .logo-area {
+    order: 1;
+  }
+  .search-area {
+    order: 2;
+    margin: 20px 0;
+  }
+  .nav-area {
+    order: 3;
+    margin: 0;
+    text-align: left;
+    li {
+      display: block;
+      padding-bottom: 10px;
+    }
+  }
   .catalog-banner {
     padding: 350px 20px 90px 20px;
   }
 //-------------------------------------------------------
-.btn-news {
-  padding: 20px 120px;
-}
 .imgs-catalog {
   width: 130px;
 }
@@ -307,21 +350,6 @@
 
 
 @media screen and (max-width: 400px) {
-  h1 {
-   font-size: 30px;
-  }
-  h2 {
-    font-size: 20px;
-  }
-  h3 {
-    font-size: 18px;
-  }
-  h4 {
-   font-size: 12px;
-  }
-  .mrg-40-0-30-0 {
-    margin: 20px 0 15px 0;
-  }
   .mrg-0-28 {
     margin: 0 5px;
   }
@@ -335,59 +363,24 @@
     font-size: 16px;
   }
 //--------------------------------------------------------------------
-  .header-areas {
-    flex-flow: column;
-    align-items: flex-start;
-    .search-area, .nav-area {
-      margin-top: 20px;
-    }
-  }
-  .logo-area {
-    order: 1;
-  }
-  .search-area {
-    order: 2;
-  }
-  .search-box {
-    padding: 5px 110px 5px 10px;
-  }
-  .nav-area {
-    order: 3;
-  }
-  .header-nav {
-    margin: 0;
-    li {
-      display: block;
-      padding: 5px;
-    }
-  }
-
-//--------------------------------------------------------------------
-.home-banner {
-  padding: 350px 20px 90px 20px;
-}
+ .subscribe-1, .subscribe-2, .subscribe-3 {
+   padding: 20px 20px 15px 20px;
+ }
+ .body-subs {
+   margin-top: 160px;
+ }
   .btn-subs {
     font-size: 12px;
-    padding: 20px 65px;
-  }
-  .additinfo-subs {
-    font-size: 12px;
+    padding: 20px 80px;
   }
   %subscribes {
     height: 480px;
   }
-  .img-news {
-    height: 210px;
-    width: 290px;
-  }
   .btn-news {
-    padding: 20px 100px;
+    padding: 20px 104px;
   }
   .mobile-img {
-    width: 200px;
-  }
-  .btn-dowland {
-   padding: 20px 105px;
+    width: 280px;
   }
 //-------------------------------------------------------
   .imgs-catalog {
@@ -397,6 +390,9 @@
 
 
 @media screen and (max-width: 340px) {
+  .btn-banner-main {
+    width: 280px;
+  }
   .btn-banner-catalog {
     width: 250px;
   }
@@ -408,7 +404,4 @@
     padding: 5px 80px 5px 10px;
   }
 //-------------------------------------------------------
-  .btn-dowland {
-   padding: 20px 70px;
-  }
 }

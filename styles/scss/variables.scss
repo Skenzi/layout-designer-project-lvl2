@@ -6,11 +6,10 @@ $colors: ("primary": #fff, "orange": #f89202, "grey": #555, "lightgrey": #8c8c8c
 body {
  font-family: Roboto, sans-serif;
  margin: 0;
- line-height: 1.5;
  color: #fff;
  background-color: #000;
 }
-h1, h2, h3, h4, ul {
+h1, h2, h3, h4, ul, p {
  margin: 0;
  padding: 0;
 }
@@ -18,24 +17,24 @@ h1 {
  font-size: 60px;
 }
 h2 {
-  font-size: 38px;
+  font-size: 30px;
 }
 h3 {
- font-size: 30px;
+ font-size: 18px;
 }
 h4 {
-  font-size: 18px
+  font-size: 38px
 }
-img, img + span {
+.v-a-middle {
  vertical-align: middle;
 }
 .container {
-  max-width: 1300px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 .flex-container {
  display: flex;
- justify-content: space-between;
+ justify-content: flex-start;
  align-items: center;
  flex-flow: row wrap;
 }
@@ -57,7 +56,7 @@ img, img + span {
 }
 .btn {
  border-radius: 5px;
- padding: 20px 30px;
+ padding: 20px;
  color: #fff;
  border: none;
 }
@@ -73,8 +72,8 @@ img, img + span {
 .text-center {
  text-align: center;
 }
-.pdg-100-0-50-0 {
-  padding: 100px 0 50px 0;
+.pdg-100-50-0-50 {
+  padding: 100px 50px 0 50px;
 }
 .pdg-50-100-50 {
   padding: 0 50px 100px 50px;
@@ -85,17 +84,38 @@ img, img + span {
 .mrg-t-40 {
   margin-top: 40px;
 }
+.mrg-l-68 {
+  margin-left: 68px;
+}
+.mrg-r-21 {
+  margin-right: 21px;
+}
+.mrg-r-68 {
+  margin-right: 68px;
+}
+.mrg-25-0-20-0 {
+  margin: 25px 0 20px 0;
+}
 .mrg-100-0-50-0 {
   margin: 100px 0 50px 0;
 }
-.mrg-b-60 {
- margin-bottom: 60px;
+.mrg-b-25 {
+  margin-bottom: 25px;
 }
-.mrg-0-28 {
- margin: 0 28px;
+.mrg-b-30 {
+  margin-bottom: 30px;
 }
-.mrg-40-0-30-0 {
-  margin: 40px 0 30px 0;
+.mrg-b-50 {
+ margin-bottom: 50px;
+}
+.mrg-b-70 {
+ margin-bottom: 70px;
+}
+.mrg-0-21 {
+ margin: 0 21px;
+}
+.mrg-10-0-40-0 {
+  margin: 10px 0 40px 0;
 }
 a {
   &:link {
