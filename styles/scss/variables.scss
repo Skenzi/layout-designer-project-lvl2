@@ -65,7 +65,7 @@ h4 {
    font-size: #{$size}#{$unit};
   }
 }
-@include font-size(14, px);
+@include font-size(12, px);
 @include font-size(24, px);
 @include font-size(38, px);
 @include font-size(60, px);
