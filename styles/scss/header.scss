@@ -4,10 +4,11 @@
   right: 0;
 }
 .header-areas {
-  padding: 20px 0;
+  padding: 20px 0 0;
+  justify-content: space-between;
 }
 .nav-area {
-  margin: 0 310px 0 100px;
+  margin: 0 321px 0 100px;
 }
 .header-nav {
   font-size: 11px;
@@ -15,6 +16,9 @@
   li {
   display: inline-block;
   padding-right: 40px;
+  &:last-child {
+    padding-right: 0;
+  }
 }
 }
 .search-box {

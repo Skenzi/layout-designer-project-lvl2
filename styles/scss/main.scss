@@ -9,8 +9,11 @@
 .home-banner {
   @include bg-image("../images/banner.png", cover);
   background-position: center;
-  padding: 270px 50px 250px 50px;
-  text-align: center;
+  .body-banner {
+    padding: 232px 0 248px 0;
+    flex-flow: column;
+    text-align: center;
+  }
 }
 .form-banner {
   grid-template-areas: "name email"
@@ -39,10 +42,17 @@
 }
 
 // --------Subscribes styles-----------
+.upper-block {
+  padding: 100px 0 0 0;
+}
+.header-subscribes {
+  padding-bottom: 50px;
+}
 %subscribes {
   height: 580px;
   flex: 0 1 350px;
   justify-content: space-between;
+  flex-flow: column;
   padding: 25px 20px 65px 20px;
   border-radius: 8px;
   margin-bottom: 50px;
@@ -122,6 +132,9 @@
 }
 
 //--------Mobile app Info Styles------------
+.lower-block {
+  padding: 0 0 100px 0;
+}
 .header-mobile {
   padding: 100px 0 50px 0;
 }
@@ -144,52 +157,85 @@
 .catalog-banner {
   @include bg-image("../images/Morten.png", cover);
   background-position: center;
-  padding: 200px 60px 30px 60px;
-   h3 {
+   h2 {
       font-size: 18px;
-      margin-bottom: 50px;
+    }
+    .body-banner {
+      padding: 237px 0 76px 0;
     }
 }
 .btn-banner-catalog {
-  padding: 20px;
   width: 200px;
   text-align: left;
+  font-size: 14px;
   &:nth-child(1) {
-    margin-right: 30px;
+    margin-right: 35px;
   }
 }
 .btn-img {
-  width: 35px;
-  padding-right: 10px;
+  width: 16px;
+  margin-right: 15px;
 }
 
 //--------Main Styles-----------
+.header-traks {
+  padding-bottom: 50px;
+}
+.header-album, .header-author {
+  padding: 100px 0 50px 0;
+}
 .cover {
-  width: 40px;
-  height: 40px;
+  width: 55px;
+  height: 55px;
   margin-right: 15px;
 }
-.track-info {
-  vertical-align: middle;
-}
-.music-track-name {
-  justify-content: space-between;
-  flex: 1 1 80%;
-}
 .track-box {
-  flex: 1 1 40%;
-  margin-top: 20px;
-  &:nth-child(2n+1) {
-    margin-right: 60px;
+  flex: 0 1 45%;
+  &:nth-child(1n+3) {
+    margin-top: 25px;
   }
+  &:nth-child(2n+1) {
+    margin-right: 68px;
+  }
+}
+.track-info {
+  justify-content: space-between;
+  flex: 1;
+}
+.track-name {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.track-author {
+  font-size: 12px;
+  color: #8c8c8c;
+}
+.track-time {
+  font-size: 14px;
+  color: #8c8c8c;
+}
+.card-box {
+  align-items: baseline;
 }
 .card-catalog {
-  padding: 50px 25px 0 0;
-  flex: 0 1 20%;
-  > div {
-    margin-top: 10px;
+  margin: 0 50px 0 0;
+  flex: 0 1 250px;
+  &:nth-child(1n+5) {
+    margin-top: 50px;
+  }
+  &:nth-child(4n+4) {
+    margin-right: 0;
   }
 }
- .cards-box {
-   justify-content: flex-start;
- }
+.card-info-album {
+  margin-top: 10px;
+}
+.card-info-author {
+  text-align: center;
+  margin-top: 15px;
+}
+.album-name, .author-name {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
