@@ -115,8 +115,7 @@ a:link {
 a:visited {
   color: #999; }
 
-.index-page .home-link,
-.catalog-page .catalog-link {
+.active-link {
   color: #fff; }
 
 .black-bgcolor {

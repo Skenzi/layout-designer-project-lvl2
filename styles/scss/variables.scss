@@ -117,8 +117,7 @@ a {
     color: #999;
   }
 }
-.index-page .home-link,
-.catalog-page .catalog-link {
+.active-link {
   color: #fff;
 }
 @mixin bg-color($name-color, $color) {
