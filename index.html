@@ -44,10 +44,10 @@
        <h1 class="main-title">ОНЛАЙН МУЗЫКА ГДЕ УГОДНО</h1>
        <p class="subheader-banner mrg-10-0-40-0">БЕЗ ОГРАНИЧЕНИЙ</p>
        <p class="addinfo-banner mrg-10-0-40-0">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки.</p>
-       <form action="#" method="POST" class="grid-container form-banner">
+       <form action="#" method="POST" id="data" class="grid-container form-banner">
         <input type="text" name="name" placeholder="Имя" class="name-box primary-color">
 	<input type="email" name="email" placeholder="Email" class="email-box primary-color">
-	<button class="limegreen-bgcolor btn btn-banner-main">ПОЛУЧИТЬ ДОСТУП</button>
+	<button class="btn btn-banner-main" form="data">ПОЛУЧИТЬ ДОСТУП</button>
        </form>
      </section>
     </div>
@@ -57,12 +57,12 @@
   <div class="upper-block">
     <section class="flex-container flex-column container">
 	 <h2 class="text-center title-block header-subscribes">ФОРМЫ ПОДПИСКИ</h2>
-	 <form class="flex-container text-center form-subscribes" action="#" method="POST">
+	 <form class="flex-container text-center form-subscribes" id="subscribes" action="#" method="POST">
 		 <div class="subscribe-1 flex-container">
 	       <p class="font-s-24">БЕСПЛАТНАЯ</p>
 		  <div class="flex-container flex-column body-subs">
 			  <p class="price-sub">0<sup class="sup-text">РУБ.</sup></p>
-		   <button name="freesub" class="btn btn-subs">ОФОРМИТЬ</button>
+		   <button name="freesub" class="btn btn-subs" form="subscribes">ОФОРМИТЬ</button>
 		   <p class="description-subs"> Оплата в месяц. Бесплатный тариф предоставляет доступ ко всей коллекции музыки. Присутсвует реклама</p>
 		  </div>
 		 </div>
@@ -71,7 +71,7 @@
 		  <p class="font-s-24">СТАНДАРТНАЯ</p>
 		  <div class="flex-container flex-column body-subs">
 			  <p class="price-sub">250<sup class="sup-text">РУБ.</sup></p>
-		   <button name="standsub" class="btn btn-subs">ОФОРМИТЬ</button>
+		   <button name="standsub" class="btn btn-subs" form="subscribes">ОФОРМИТЬ</button>
 		   <p class="description-subs">Оплата в месяц. Стандартный тариф предоставляет доступ ко всей коллекции музыки в среднем качестве</p>
 		  </div>
 		 </div>
@@ -80,7 +80,7 @@
 	          <p class="font-s-24">ПРЕМИУМ</p>
 		  <div class="flex-container flex-column body-subs">
 			  <p class="price-sub">500<sup class="sup-text">РУБ.</sup></p>
-		   <button name="premsub" class="btn btn-subs">ОФОРМИТЬ</button>
+		   <button name="premsub" class="btn btn-subs" form="subscribes">ОФОРМИТЬ</button>
 		   <p class="description-subs">Оплата в месяц. Премиум тариф предоставляет доступ ко всей коллекции музыки в высоком качестве</p>
 		  </div>
 		 </div>
@@ -109,7 +109,9 @@
             <span class="mrg-0-21">|</span>
             <span class="grey-color">24/02/2020</span>
           </p>
-		      <button class="btn btn-news">К АЛЬБОМУ</button>
+          <form action="#" method="post">
+		       <button class="btn btn-news">К АЛЬБОМУ</button>
+          </form>
         </section>
       </div>
 
@@ -126,7 +128,9 @@
             <span class="mrg-0-21">|</span>
             <span class="grey-color">24/02/2020</span>
           </p>
-		      <button class="btn btn-news">К АЛЬБОМУ</button>
+          <form action="#" method="post">
+		       <button class="btn btn-news">К АЛЬБОМУ</button>
+          </form>
         </div>
           <img src="images/OrdinaryMan.png" alt="Ozzi" class="img-news mrg-l-68">
       </div>
