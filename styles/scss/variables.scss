@@ -1,5 +1,5 @@
 $bg-colors: ("black": #000, "darkgray": #3c3b3d, "violet": #5328a1, "darkorange":#95390c);
-$colors: ("primary": #fff, "orange": #f89202, "grey": #555, "lightgrey": #8c8c8c);
+$colors: ("primary": #fff, "orange": #f89202, "grey": #555);
 * {
  box-sizing: border-box;
 }
@@ -9,7 +9,7 @@ body {
  color: #fff;
  background-color: #000;
 }
-h1, h2, h3, h4, ul, p {
+h1, h2, h3, ul, p {
  margin: 0;
  padding: 0;
 }
@@ -17,13 +17,10 @@ h1 {
  font-size: 60px;
 }
 h2 {
-  font-size: 30px;
+  font-size: 38px;
 }
 h3 {
- font-size: 18px;
-}
-h4 {
-  font-size: 38px
+ font-size: 30px;
 }
 .v-a-middle {
  vertical-align: middle;
@@ -53,6 +50,7 @@ h4 {
  padding: 20px;
  color: #fff;
  border: none;
+ background-color: transparent;
 }
 @mixin font-size($size, $unit) {
   .font-s-#{$size} {

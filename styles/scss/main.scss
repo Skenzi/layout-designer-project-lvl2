@@ -2,7 +2,7 @@
  background-image: url(#{$wayimage});
  background-size: $sizeimage;
 }
-
+$text-color: #8c8c8c;
 // --------------------Index Styles-----------------------------------------------
 
 // --------Banner styles----------------
@@ -104,25 +104,20 @@
 .subheader-news {
   font-size: 30px;
 }
-%flex-news-text {
- flex: 1 1 40%;
-}
-%flex-news-img {
-  flex: 1 1 30%;
-}
 .header-news {
   padding: 100px 0 50px 0;
 }
 .img-news {
- @extend %flex-news-img;
  max-width: 566px;
  max-height: 280px
 }
 .news {
- @extend %flex-news-text;
+ flex: 1;
 }
 .text-news {
-  line-height: 2;
+  line-height: 28px;
+  font-size: 14px;
+  color: $text-color;
 }
 .btn-news {
  border: 1px solid #e9e9e9;
@@ -141,6 +136,7 @@
 .mobile-text {
  flex: 0 1 50%;
  margin-right: 210px;
+ color: $text-color;
 }
 .mobile-img {
   width: 295px;
@@ -157,13 +153,18 @@
 .catalog-banner {
   @include bg-image("../images/Morten.png", cover);
   background-position: center;
-   h2 {
-      font-size: 18px;
-    }
     .body-banner {
       padding: 237px 0 76px 0;
     }
 }
+ .subheader-banner {
+   font-size: 30px;
+   font-weight: 700;
+ }
+  .addinfo-banner {
+    font-size: 18px;
+    font-weight: 700;
+  }
 .btn-banner-catalog {
   width: 200px;
   text-align: left;
