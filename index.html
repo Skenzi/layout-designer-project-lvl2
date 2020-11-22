@@ -6,6 +6,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initinal-scale=1">
   <link href="styles/style.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
  </head>
 
  <body>
@@ -19,17 +21,17 @@
         <div class="flex-container header-areas container">
 
          <div class="logo-area">
-          <img src="images/logo.svg" alt="Logo" class="logo v-a-middle"><span class="logo-text v-a-middle">MUSIC BOX</span>
+          <a href="index.html"><img src="images/logo.svg" alt="Logo" class="logo v-a-middle"><span class="logo-text v-a-middle">MUSIC BOX</span></a>
          </div>
 
-          <div class="nav-area">
-           <ul class="nav header-nav">
+          <nav class="nav-area">
+           <ul class="header-nav">
     	 <li><a href="index.html" class="active-link">ГЛАВНАЯ</a></li>
-    	 <li><a href="catalog.html">КАТАЛОГ</a></li>
-    	 <li><a href="#">ИСПОЛНИТЕЛИ</a></li>
+    	 <li><a href="#">КАТАЛОГ</a></li>
+    	 <li><a href="musician.html">ИСПОЛНИТЕЛИ</a></li>
        <li><a href="#">КОНТАКТЫ</a></li>
            </ul>
-          </div>
+         </nav>
 
           <div class="search-area">
           <form action="#" method="post">
@@ -57,35 +59,35 @@
   <div class="upper-block">
     <section class="flex-container flex-column container">
 	 <h2 class="text-center title-block header-subscribes">ФОРМЫ ПОДПИСКИ</h2>
-	 <form class="flex-container text-center form-subscribes" id="subscribes" action="#" method="POST">
-		 <div class="subscribe-1 flex-container">
-	       <p class="font-s-24">БЕСПЛАТНАЯ</p>
+	 <ul class="flex-container text-center form-subscribes">
+		 <li class="subscribe-1 flex-container">
+	       <h3>БЕСПЛАТНАЯ</h3>
 		  <div class="flex-container flex-column body-subs">
 			  <p class="price-sub">0<sup class="sup-text">РУБ.</sup></p>
-		   <button name="freesub" class="btn btn-subs" form="subscribes">ОФОРМИТЬ</button>
+		   <a href="#" class="btn btn-subs">ОФОРМИТЬ</a>
 		   <p class="description-subs"> Оплата в месяц. Бесплатный тариф предоставляет доступ ко всей коллекции музыки. Присутсвует реклама</p>
 		  </div>
-		 </div>
+    </li>
 
-		 <div class="subscribe-2 flex-container">
-		  <p class="font-s-24">СТАНДАРТНАЯ</p>
+		 <li class="subscribe-2 flex-container">
+		  <h3>СТАНДАРТНАЯ</h3>
 		  <div class="flex-container flex-column body-subs">
 			  <p class="price-sub">250<sup class="sup-text">РУБ.</sup></p>
-		   <button name="standsub" class="btn btn-subs" form="subscribes">ОФОРМИТЬ</button>
+		   <a href="#" class="btn btn-subs">ОФОРМИТЬ</a>
 		   <p class="description-subs">Оплата в месяц. Стандартный тариф предоставляет доступ ко всей коллекции музыки в среднем качестве</p>
 		  </div>
-		 </div>
+    </li>
 
-		 <div class="subscribe-3 flex-container">
-	          <p class="font-s-24">ПРЕМИУМ</p>
+		 <li class="subscribe-3 flex-container">
+	          <h3>ПРЕМИУМ</h3>
 		  <div class="flex-container flex-column body-subs">
 			  <p class="price-sub">500<sup class="sup-text">РУБ.</sup></p>
-		   <button name="premsub" class="btn btn-subs" form="subscribes">ОФОРМИТЬ</button>
+		   <a href="#" class="btn btn-subs">ОФОРМИТЬ</a>
 		   <p class="description-subs">Оплата в месяц. Премиум тариф предоставляет доступ ко всей коллекции музыки в высоком качестве</p>
 		  </div>
-		 </div>
-	  </form>
-	 <div class="additinfo-subs">На всех тарифах возможно прослушивание музыки с мобильных устройств. На премиум тарифе вы можете скачать все композции на ваше устройство и слушать музыку без подключения к интернету</div>
+    </li>
+   </ul>
+	 <p class="additinfo-subs">На всех тарифах возможно прослушивание музыки с мобильных устройств. На премиум тарифе вы можете скачать все композции на ваше устройство и слушать музыку без подключения к интернету</p>
  </section>
 </div>
 
@@ -95,38 +97,42 @@
        <section class="container">
       <h2 class="text-center title-block header-news">ПОСЛЕДНИЕ НОВОСТИ</h2>
 
-        <div class="flex-container news-container mrg-b-70">
+        <div class="flex-container news-container">
 	      <img src="images/MusictoBeMurderedBy.png" alt="Eminem" class="img-news mrg-r-68">
 	      <section class="news">
 		      <h3 class="title-body">Music to Be Murdered By</h3>
 		      <div class="text-news mrg-25-0-20-0">
-		      <p>Новый альбом Eminem &laquo;Music to Be Murdered By&raquo; уже доступен в нашем сервисе.</p>
-		      <p>На альбоме вас ждёт 20 новых треков.</p>
+		      <p>
+            Новый альбом Eminem &laquo;Music to Be Murdered By&raquo; уже доступен в нашем сервисе.
+            На альбоме вас ждёт 20 новых треков.
+          </p>
 		      </div>
 		      <p class="mrg-b-50 font-s-12">
-            <img src="images/avatar.png" alt="Avatar" class="v-a-middle mrg-r-21">
+            <img src="images/avatar.png" alt="Avatar" class="v-a-middle avatar-img">
             <span class="orange-color">MUSIC BOX</span>
-            <span class="mrg-0-21">|</span>
-            <span class="grey-color">17/01/2020</span>
+            <span class="mrg-0-21 ligthgray-color">|</span>
+            <time class="grey-color" datetime="2020-01-17">17/01/2020</time>
           </p>
-		       <button class="btn btn-news">К АЛЬБОМУ</button>
+		       <a href="#" class="btn btn-news">К АЛЬБОМУ</a>
         </section>
       </div>
 
-      <div class="flex-container mrg-t-40 news-container">
+      <div class="flex-container news-container">
         <div class="news">
 		      <h3 class="title-body">Ordinary Man</h3>
 		      <div class="text-news mrg-25-0-20-0">
-		      <p>Легенда рока Оззи Озборн спустя 10 лет выпустил новый альбом Ordinary Man.</p>
-		      <p>Слушайте в числе первых на Music Box.</p>
+		      <p>
+            Легенда рока Оззи Озборн спустя 10 лет выпустил новый альбом Ordinary Man.
+            Слушайте в числе первых на Music Box.
+          </p>
 		      </div>
 		      <p class="mrg-b-50 font-s-12">
-            <img src="images/avatar.png" alt="Avatar" class="v-a-middle mrg-r-21">
+            <img src="images/avatar.png" alt="Avatar" class="v-a-middle avatar-img">
             <span class="orange-color">MUSIC BOX</span>
-            <span class="mrg-0-21">|</span>
-            <span class="grey-color">24/02/2020</span>
+            <span class="mrg-0-21 ligthgray-color">|</span>
+            <time class="grey-color" datetime="2020-02-24">24/02/2020</time>
           </p>
-		       <button class="btn btn-news">К АЛЬБОМУ</button>
+		       <a href="#" class="btn btn-news">К АЛЬБОМУ</a>
         </div>
           <img src="images/OrdinaryMan.png" alt="Ozzi" class="img-news mrg-l-68">
       </div>
@@ -153,44 +159,44 @@
    <footer class="footer">
      <div class="flex-container container height-footer">
 
-       <div class="footer-element">
-        <p class="headers-footer">О нас</p>
-        <ul class="nav height-nav">
+       <section class="footer-element">
+        <h2 class="headers-footer">О нас</h2>
+        <ul class="height-nav">
           <li><a href="#">История компании</a></li>
           <li><a href="#">Карьера</a></li>
           <li><a href="#">Особенности</a></li>
           <li><a href="#">Пресса</a></li>
         </ul>
-       </div>
+      </section>
 
-       <div class="footer-element">
-        <p class="headers-footer">Поддержка</p>
-        <ul class="nav height-nav">
+       <section class="footer-element">
+        <h2 class="headers-footer">Поддержка</h2>
+        <ul class="height-nav">
           <li><a href="#">База знаний</a></li>
           <li><a href="#">Тарифы</a></li>
           <li><a href="#">Мобильное приложение</a></li>
           <li><a href="#">Условия использования</a></li>
         </ul>
-       </div>
+      </section>
 
-       <div class="footer-element">
-        <p class="headers-footer">Контакты</p>
-        <ul class="nav height-nav">
-         <li>hello@music.box</li>
+       <section class="footer-element">
+        <h2 class="headers-footer">Контакты</h2>
+        <ul class="height-nav">
+         <li><a href="mailto:hello@music.box">hello@music.box</a></li>
          <li>Russia, Moscow, Music Box studio</li>
-         <li>+7 499 999 99 99</li>
+         <li><a href="tel:+74999999999">+7 499 999 99 99</a></li>
         </ul>
-       </div>
+       </section>
 
-       <div class="footer-element">
-        <p class="headers-footer mrg-b-30">Подписывайся</p>
+       <section class="footer-element">
+        <h2 class="headers-footer mrg-b-30">Подписывайся</h2>
         <p class="networks">
         <a href="#"> <img src="images/Google+.png" alt="Google"></a>
          <a href="#"><img src="images/Twitter.png" alt="Twitter"></a>
           <a href="#"><img src="images/Facebook.png" alt="Facebook"></a>
           <a href="#"><img src="images/Instagram.png" alt="Instagram"></a>
         </p>
-       </div>
+       </section>
 
      </div>
 
@@ -198,7 +204,7 @@
 
      <div class="container low-footer flex-container">
 
-       <ul class="nav low-nav">
+       <ul class="low-nav">
          <li><a href="#">Магазин</a></li>
          <li><a href="#">Обслуживание</a></li>
          <li><a href="#">Блог</a></li>

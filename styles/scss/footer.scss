@@ -1,20 +1,19 @@
 .footer {
  background: linear-gradient(94.76deg, #5328A1 36.51%, #95390C 74.64%);
- a:link, .height-nav {
+ a, .height-nav {
    color: #cacaca;
  }
 }
 .height-footer {
   align-items: baseline;
   justify-content: space-between;
-  padding: 100px 0;
+  padding: 80px 0 100px 0;
 }
 .low-footer {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 .headers-footer {
   font-size: 18px;
-  font-weight: 700;
   color: #cacaca;
 }
 .height-nav {
@@ -26,11 +25,8 @@
   }
 }
 .networks {
-  a:first-child {
-    padding-top: 30px;
-  }
   a:nth-child(1n+2) {
-    padding-left: 15px;
+    margin-left: 20px;
   }
 }
 
