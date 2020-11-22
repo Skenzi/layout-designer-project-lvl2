@@ -73,7 +73,7 @@
 //--------------------------------------------------------------------
  .low-nav {
    li:nth-child(1n+2) {
-     padding-left: 25px;
+     margin-left: 25px;
    }
 }
 }
@@ -217,7 +217,7 @@
 //-------------------------------------------------------
   .low-nav {
     li:nth-child(1n+2) {
-      padding-left: 15px;
+      margin-left: 15px;
     }
   }
 }
@@ -336,7 +336,7 @@
       display: block;
     }
     li:nth-child(1n+2) {
-      padding: 25px 0 0 0;
+      margin: 20px 0 0 0;
     }
   }
 }
