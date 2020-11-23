@@ -150,11 +150,11 @@
     margin: 20px 0 0 0;
     padding: 0;
     text-align: center;
-    li {
+  }
+    .element-header-nav {
       display: inline-block;
       padding-right: 20px;
     }
-  }
 //------------------------------------------------------------------------------
   .form-subscribes {
     flex-flow: column;
@@ -359,15 +359,13 @@
     margin: 0;
     text-align: left;
   }
-  .header-nav {
-    li {
+  .element-header-nav {
       display: block;
       padding-bottom: 10px;
     &:last-child {
       padding: 0;
     }
   }
-}
 //-------------------------------------------------------
 .imgs-catalog {
   width: 130px;
