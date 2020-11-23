@@ -1,17 +1,17 @@
 .header-areas {
-  padding: 25px 0 0;
   justify-content: space-between;
+  padding: 25px 0 0;
 }
 .nav-area {
   margin: 0 335px 0 100px;
-  a {
-   text-decoration: none;
+   a {
    color: #808080;
+   text-decoration: none;
   }
 }
 .header-nav {
-  font-size: 11px;
   font-weight: 700;
+  font-size: 11px;
   li {
   display: inline-block;
   padding-right: 40px;
@@ -24,12 +24,13 @@
   color: #808080;
 }
 .search-box {
+  width: 280px;
+  padding: 8px 14px;
   border: none;
   border-radius: 50px;
   padding: 8px 14px;
-  width: 280px;
-  font-size: 11px;
   font-weight: 700;
+  font-size: 11px;
 }
 .logo-area a {
   color: #fff;
@@ -40,6 +41,6 @@
   margin-right: 4px;
 }
 .logo-text {
-  font-size: 11px;
   font-weight: 700;
+  font-size: 11px;
 }

@@ -4,10 +4,10 @@ $colors: ("primary": #fff, "orange": #f89202, "grey": #555, "ligthgray": #b8b8b8
  box-sizing: border-box;
 }
 body {
- font-family: Roboto, sans-serif;
  margin: 0;
+ font-family: Roboto, sans-serif;
  color: #fff;
- background-color: #08020D;
+ background-color: #08020d;
 }
 h1, h2, h3, ul, p, hr {
  margin: 0;
@@ -32,8 +32,8 @@ a {
   font-size: 38px;
 }
 .title-body {
- font-size: 30px;
  font-weight: 400;
+ font-size: 30px;
 }
 .v-a-middle {
  vertical-align: middle;
@@ -44,9 +44,9 @@ a {
 }
 .flex-container {
  display: flex;
- justify-content: flex-start;
- align-items: center;
  flex-flow: row wrap;
+ align-items: center;
+ justify-content: flex-start;
 }
 .flex-column {
  flex-flow: column wrap;
@@ -56,11 +56,11 @@ a {
  align-items: center;
 }
 .btn {
- border-radius: 5px;
  padding: 20px;
+ border-radius: 5px;
  color: #fff;
- border: none;
  background-color: transparent;
+ border: none;
 }
 @mixin font-size($size, $unit) {
   .font-s-#{$size} {

@@ -1,5 +1,5 @@
 .footer {
- background: linear-gradient(94.76deg, #5328A1 36.51%, #95390C 74.64%);
+ background: linear-gradient(94.76deg, #5328a1 36.51%, #95390c 74.64%);
  a, .height-nav {
    color: #cacaca;
  }
@@ -13,8 +13,16 @@
   padding: 50px 0;
 }
 .headers-footer {
-  font-size: 18px;
   color: #cacaca;
+  font-size: 18px;
+}
+.low-nav {
+  li {
+    display: inline-block;
+  }
+  li:nth-child(1n+2) {
+    margin-left: 40px;
+  }
 }
 .height-nav {
   li:first-child {
@@ -30,15 +38,7 @@
   }
 }
 .line-footer {
-  border: none;
-  background-color: #eee;
   height: 1px;
-}
-.low-nav {
-  li {
-    display: inline-block;
-  }
-  li:nth-child(1n+2) {
-    margin-left: 40px;
-  }
+  background-color: #eee;
+  border: none;
 }
