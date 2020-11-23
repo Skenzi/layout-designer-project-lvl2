@@ -961,6 +961,7 @@ a {
 }
 @media screen and (max-width: 400px) {
   .subscribe-1, .subscribe-2, .subscribe-3 {
+    height: 480px;
     padding: 20px 20px 15px 20px;
   }
   .subscribe-1 h3, .subscribe-2 h3, .subscribe-3 h3 {
@@ -974,10 +975,6 @@ a {
   .btn-subs {
     padding: 20px 80px;
     font-size: 12px;
-  }
-
-  .subscribe-1, .subscribe-2, .subscribe-3 {
-    height: 480px;
   }
 
   .img-news {
