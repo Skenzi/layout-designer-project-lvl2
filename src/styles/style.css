@@ -795,7 +795,7 @@ a {
   }
 
   .subscribe-1,
-   .subscribe-2 {
+  .subscribe-2 {
     margin-right: 0;
   }
 }
@@ -857,6 +857,7 @@ a {
     margin-left: 15px;
   }
 }
+
 @media screen and (max-width: 600px) {
   .main-title {
     font-size: 30px;
@@ -889,6 +890,7 @@ a {
   .news .mrg-b-50 {
     margin-bottom: 28px;
   }
+
   .news .avatar-img {
     width: 25px;
   }
@@ -921,7 +923,8 @@ a {
     margin-bottom: 5px;
   }
 
-  .album-name, .author-name {
+  .album-name,
+  .author-name {
     font-size: 16px;
   }
 
@@ -1060,7 +1063,9 @@ a {
     padding: 20px 20px 15px 20px;
   }
 
-  .subscribe-1 h3, .subscribe-2 h3, .subscribe-3 h3 {
+  .subscribe-1 h3,
+  .subscribe-2 h3,
+  .subscribe-3 h3 {
     font-size: 16px;
   }
 
