@@ -12,13 +12,13 @@
 .header-nav {
   font-weight: 700;
   font-size: 11px;
-  li {
+ }
+  .element-header-nav {
   display: inline-block;
   padding-right: 40px;
   &:last-child {
     padding-right: 0;
   }
-}
 }
 .search-area input::placeholder {
   color: #808080;

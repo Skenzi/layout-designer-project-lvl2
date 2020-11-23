@@ -72,11 +72,9 @@
   margin: 0 auto;
  }
 //--------------------------------------------------------------------
- .low-nav {
-   li:nth-child(1n+2) {
+ .element-low-nav:nth-child(1n+2) {
      margin-left: 25px;
    }
-}
 }
 
 
@@ -218,11 +216,9 @@
     margin-top: 25px;
 }
 //-------------------------------------------------------
-  .low-nav {
-    li:nth-child(1n+2) {
+  .element-low-nav:nth-child(1n+2) {
       margin-left: 15px;
     }
-  }
 }
 
 
@@ -335,10 +331,11 @@
   }
   .low-nav {
     flex-basis: 100%;
-    li {
+  }
+    .element-low-nav {
       display: block;
-    }
-    li:nth-child(1n+2) {
+
+     &:nth-child(1n+2) {
       margin: 20px 0 0 0;
     }
   }
