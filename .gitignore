@@ -1,0 +1,10 @@
+/node_modules/
+.github/workflows/htmlcss.yml
+.htmlhintrc
+.stylelintrc.yaml
+.surgeignore
+Makefile
+package-lock.json
+package.json
+src/index.html
+src/styles/style.css
