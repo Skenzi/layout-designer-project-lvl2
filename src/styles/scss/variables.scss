@@ -58,9 +58,9 @@ a {
 .btn {
  padding: 20px;
  color: #fff;
- border-radius: 5px;
  background-color: transparent;
  border: none;
+ border-radius: 5px;
 }
 @mixin font-size($size, $unit) {
   .font-s-#{$size} {
