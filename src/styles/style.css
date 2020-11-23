@@ -715,7 +715,8 @@ a {
     padding: 18px 0;
   }
 
-  .height-footer, .low-footer {
+  .height-footer,
+  .low-footer {
     flex-flow: row wrap;
   }
 }
@@ -763,7 +764,8 @@ a {
     font-size: 22px;
   }
 
-  .logo-area, .search-area {
+  .logo-area,
+  .search-area {
     flex: 0 1 40%;
     order: 1;
   }
@@ -792,7 +794,8 @@ a {
     flex: 0 1 280px;
   }
 
-  .subscribe-1, .subscribe-2 {
+  .subscribe-1,
+  .subscribe-2 {
     margin-right: 0;
   }
 }
