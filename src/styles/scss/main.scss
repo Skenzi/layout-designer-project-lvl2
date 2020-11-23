@@ -10,8 +10,9 @@ $text-color: #8c8c8c;
 
 // --------Banner styles----------------
 .home-banner {
+  background-image: url(../images/banner.png);
   background-position: center;
-  @include bg-image("../images/banner.png", cover);
+  background-size: cover;
   .body-banner {
     flex-flow: column;
     padding: 232px 0 248px 0;
@@ -27,8 +28,8 @@ $text-color: #8c8c8c;
  font-weight: 700;
  font-size: 14px;
  background-color: rgba(255,255,255, 0.1);
- border-radius: 3px;
  border: 2px solid rgba(255,255,255, 0.1);
+ border-radius: 3px;
  }
  input::placeholder {
    color: #fff;
@@ -56,11 +57,11 @@ $text-color: #8c8c8c;
 }
 %subscribes {
   flex: 0 1 350px;
-  height: 580px;
   flex-flow: column;
   justify-content: space-between;
-  padding: 25px 20px 65px 20px;
+  height: 580px;
   margin-bottom: 50px;
+  padding: 25px 20px 65px 20px;
   border-radius: 8px;
   h3 {
     font-weight: 400;
@@ -94,9 +95,9 @@ $text-color: #8c8c8c;
 }
 .btn-subs {
  margin: 40px 0;
+ padding: 20px 80.5px;
  background-color: transparent;
  border: 4px solid #fff;
- padding: 20px 80.5px;
  font-size: 24px;
 }
 .description-subs {
@@ -133,10 +134,10 @@ $text-color: #8c8c8c;
   height: 48px;
   padding: 16px 0;
   text-align: center;
+  color: #8c8c8c;
  border: 1px solid #e9e9e9;
- color: #8c8c8c;
- font-size: 12px;
  font-weight: 700;
+ font-size: 12px;
 }
 
 //--------Mobile app Info Styles------------
@@ -155,8 +156,8 @@ $text-color: #8c8c8c;
  display: block;
  width: 174px;
  background-color: #ff4157;
- border-radius: 50px;
  font-size: 14px;
+ border-radius: 50px;
  text-align: center;
 }
 
@@ -164,8 +165,9 @@ $text-color: #8c8c8c;
 
 //--------Banner Styles-----------
 .catalog-banner {
+  background-image: url(../images/Morten.png);
   background-position: 70% 0;
-  @include bg-image("../images/Morten.png", cover);
+  background-size: cover;
     .body-banner {
       padding: 237px 0 76px 0;
     }
@@ -180,8 +182,8 @@ $text-color: #8c8c8c;
   }
 .btn-banner-catalog {
   width: 200px;
-  text-align: left;
   font-size: 14px;
+  text-align: left;
   &:nth-child(1) {
     margin-right: 35px;
   }
@@ -191,11 +193,11 @@ $text-color: #8c8c8c;
   margin-right: 15px;
 }
 .btn-album {
-  background-color: transparent;
   padding: 0;
-  border: none;
   top: 215px;
   left: 15px;
+  background-color: transparent;
+  border: none;
 }
 .btn-img-album {
   width: 25px;

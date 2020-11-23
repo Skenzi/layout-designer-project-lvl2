@@ -3,8 +3,8 @@
 
 body {
   margin: 0;
-  font-family: Roboto, sans-serif;
   color: #fff;
+  font-family: Roboto, sans-serif;
   background-color: #08020d; }
 
 h1, h2, h3, ul, p, hr {
@@ -55,8 +55,8 @@ a {
 
 .btn {
   padding: 20px;
-  border-radius: 5px;
   color: #fff;
+  border-radius: 5px;
   background-color: transparent;
   border: none; }
 
@@ -150,7 +150,6 @@ a {
   padding: 8px 14px;
   border: none;
   border-radius: 50px;
-  padding: 8px 14px;
   font-weight: 700;
   font-size: 11px; }
 
@@ -170,8 +169,8 @@ a {
   padding: 100px 0 50px 0; }
 
 .home-banner {
-  background-position: center;
   background-image: url(../images/banner.png);
+  background-position: center;
   background-size: cover; }
   .home-banner .body-banner {
     flex-flow: column;
@@ -186,8 +185,8 @@ a {
     font-weight: 700;
     font-size: 14px;
     background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 3px;
-    border: 2px solid rgba(255, 255, 255, 0.1); }
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 3px; }
   .form-banner input::placeholder {
     color: #fff; }
 
@@ -211,11 +210,11 @@ a {
 
 .subscribe-1, .subscribe-2, .subscribe-3 {
   flex: 0 1 350px;
-  height: 580px;
   flex-flow: column;
   justify-content: space-between;
-  padding: 25px 20px 65px 20px;
+  height: 580px;
   margin-bottom: 50px;
+  padding: 25px 20px 65px 20px;
   border-radius: 8px; }
   .subscribe-1 h3, .subscribe-2 h3, .subscribe-3 h3 {
     font-weight: 400;
@@ -248,9 +247,9 @@ a {
 
 .btn-subs {
   margin: 40px 0;
+  padding: 20px 80.5px;
   background-color: transparent;
   border: 4px solid #fff;
-  padding: 20px 80.5px;
   font-size: 24px; }
 
 .description-subs {
@@ -285,10 +284,10 @@ a {
   height: 48px;
   padding: 16px 0;
   text-align: center;
-  border: 1px solid #e9e9e9;
   color: #8c8c8c;
-  font-size: 12px;
-  font-weight: 700; }
+  border: 1px solid #e9e9e9;
+  font-weight: 700;
+  font-size: 12px; }
 
 .lower-block {
   padding: 0 0 100px 0; }
@@ -305,13 +304,13 @@ a {
   display: block;
   width: 174px;
   background-color: #ff4157;
-  border-radius: 50px;
   font-size: 14px;
+  border-radius: 50px;
   text-align: center; }
 
 .catalog-banner {
-  background-position: 70% 0;
   background-image: url(../images/Morten.png);
+  background-position: 70% 0;
   background-size: cover; }
   .catalog-banner .body-banner {
     padding: 237px 0 76px 0; }
@@ -326,8 +325,8 @@ a {
 
 .btn-banner-catalog {
   width: 200px;
-  text-align: left;
-  font-size: 14px; }
+  font-size: 14px;
+  text-align: left; }
   .btn-banner-catalog:nth-child(1) {
     margin-right: 35px; }
 
@@ -336,11 +335,11 @@ a {
   margin-right: 15px; }
 
 .btn-album {
-  background-color: transparent;
   padding: 0;
-  border: none;
   top: 215px;
-  left: 15px; }
+  left: 15px;
+  background-color: transparent;
+  border: none; }
 
 .btn-img-album {
   width: 25px; }
@@ -416,11 +415,6 @@ a {
   color: #cacaca;
   font-size: 18px; }
 
-.low-nav li {
-  display: inline-block; }
-.low-nav li:nth-child(1n+2) {
-  margin-left: 40px; }
-
 .height-nav li:first-child {
   padding-top: 30px; }
 .height-nav li:nth-child(1n+2) {
@@ -433,6 +427,11 @@ a {
   height: 1px;
   background-color: #eee;
   border: none; }
+
+.low-nav li {
+  display: inline-block; }
+.low-nav li:nth-child(1n+2) {
+  margin-left: 40px; }
 
 @media screen and (max-width: 1250px) {
   .nav-area {
@@ -547,8 +546,8 @@ a {
     flex: 0 1 100%;
     order: 2;
     margin: 20px 0 0 0;
-    text-align: center;
-    padding: 0; }
+    padding: 0;
+    text-align: center; }
     .nav-area li {
       display: inline-block;
       padding-right: 20px; }

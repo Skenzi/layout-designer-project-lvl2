@@ -16,14 +16,6 @@
   color: #cacaca;
   font-size: 18px;
 }
-.low-nav {
-  li {
-    display: inline-block;
-  }
-  li:nth-child(1n+2) {
-    margin-left: 40px;
-  }
-}
 .height-nav {
   li:first-child {
     padding-top: 30px;
@@ -41,4 +33,12 @@
   height: 1px;
   background-color: #eee;
   border: none;
+}
+.low-nav {
+  li {
+    display: inline-block;
+  }
+  li:nth-child(1n+2) {
+    margin-left: 40px;
+  }
 }
