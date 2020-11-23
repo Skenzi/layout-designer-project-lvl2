@@ -293,8 +293,8 @@ a {
 }
 
 .subscribe-1,
- .subscribe-2,
-  .subscribe-3 {
+.subscribe-2,
+.subscribe-3 {
   flex: 0 1 350px;
   flex-flow: column;
   justify-content: space-between;
@@ -306,8 +306,8 @@ a {
 }
 
 .subscribe-1 h3,
- .subscribe-2 h3,
-  .subscribe-3 h3 {
+.subscribe-2 h3,
+.subscribe-3 h3 {
   font-weight: 400;
   font-size: 24px;
 }
@@ -552,7 +552,7 @@ a {
 }
 
 .album-name,
- .author-name {
+.author-name {
   margin-bottom: 10px;
 
   font-size: 20px;
@@ -563,7 +563,7 @@ a {
 }
 
 .footer a,
- .footer .height-nav {
+.footer .height-nav {
   color: #cacaca;
 }
 
@@ -585,6 +585,7 @@ a {
 .height-nav li:first-child {
   padding-top: 30px;
 }
+
 .height-nav li:nth-child(1n+2) {
   padding-top: 20px;
 }
@@ -662,7 +663,8 @@ a {
     margin: 50px 50px 0 0;
   }
 
-  .height-footer, .low-footer {
+  .height-footer,
+  .low-footer {
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -714,7 +716,7 @@ a {
   }
 
   .height-footer,
-   .low-footer {
+  .low-footer {
     flex-flow: row wrap;
   }
 }
@@ -763,7 +765,7 @@ a {
   }
 
   .logo-area,
-   .search-area {
+  .search-area {
     flex: 0 1 40%;
     order: 1;
   }
@@ -773,6 +775,7 @@ a {
     order: 2;
     margin: 20px 0 0 0;
     padding: 0;
+
     text-align: center;
   }
 
@@ -786,8 +789,8 @@ a {
   }
 
   .subscribe-1,
-   .subscribe-2,
-    .subscribe-3 {
+  .subscribe-2,
+  .subscribe-3 {
     flex: 0 1 280px;
   }
 
@@ -837,9 +840,11 @@ a {
   .track-box {
     flex: 1 1 100%;
   }
+
   .track-box:nth-child(2n+1) {
     margin-right: 0;
   }
+
   .track-box:nth-child(odd) {
     order: -1;
   }
@@ -876,6 +881,7 @@ a {
   .btn-banner-catalog {
     width: 280px;
   }
+
   .btn-banner-catalog:nth-child(1) {
     margin: 0 0 19px 0;
   }
@@ -894,12 +900,15 @@ a {
   .card-catalog {
     flex: 0 1 130px;
   }
+
   .card-catalog:nth-child(2n + 1) {
     margin-right: 15px;
   }
+
   .card-catalog:nth-child(2n + 2) {
     margin-right: 0;
   }
+
   .card-catalog:nth-child(1n + 3) {
     margin-top: 50px;
   }
@@ -1045,8 +1054,8 @@ a {
 
 @media screen and (max-width: 400px) {
   .subscribe-1,
-   .subscribe-2,
-    .subscribe-3 {
+  .subscribe-2,
+  .subscribe-3 {
     height: 480px;
     padding: 20px 20px 15px 20px;
   }
@@ -1061,7 +1070,7 @@ a {
 
   .btn-subs {
     padding: 20px 80px;
-    
+
     font-size: 12px;
   }
 
