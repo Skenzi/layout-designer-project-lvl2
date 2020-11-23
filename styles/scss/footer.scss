@@ -29,7 +29,11 @@
     margin-left: 20px;
   }
 }
-
+.line-footer {
+  border: none;
+  background-color: #eee;
+  height: 1px;
+}
 .low-nav {
   li {
     display: inline-block;
