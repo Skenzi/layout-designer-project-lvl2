@@ -395,13 +395,13 @@
 
 
 @media screen and (max-width: 400px) {
-  %subscribes h3 {
+  %subscribes {
+  h3 {
     font-size: 16px;
+   }
+  padding: 20px 20px 15px 20px;
   }
 //--------------------------------------------------------------------
- .subscribe-1, .subscribe-2, .subscribe-3 {
-   padding: 20px 20px 15px 20px;
- }
  .body-subs {
    margin-top: 167px;
  }
