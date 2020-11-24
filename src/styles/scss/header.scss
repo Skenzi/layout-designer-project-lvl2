@@ -1,0 +1,45 @@
+.header-areas {
+  justify-content: space-between;
+  padding: 25px 0 0;
+}
+.nav-area {
+  margin: 0 335px 0 100px;
+   a {
+   color: #808080;
+   text-decoration: none;
+  }
+}
+.header-nav {
+  font-weight: 700;
+  font-size: 11px;
+ }
+  .element-header-nav {
+  display: inline-block;
+  padding-right: 40px;
+  &:last-child {
+    padding-right: 0;
+  }
+}
+.search-area input::placeholder {
+  color: #808080;
+}
+.search-box {
+  width: 280px;
+  padding: 8px 14px;
+  font-weight: 700;
+  font-size: 11px;
+  border: none;
+  border-radius: 50px;
+}
+.logo-area a {
+  color: #fff;
+}
+.logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+}
+.logo-text {
+  font-weight: 700;
+  font-size: 11px;
+}

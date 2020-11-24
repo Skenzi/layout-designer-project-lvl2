@@ -7,7 +7,7 @@
     flex-flow: row wrap;
     justify-content: center;
   }
-  .catalog-billboard .body-billboard {
+  .catalog-banner .body-banner {
     padding: 237px 50px 76px 50px;
   }
 }
@@ -53,7 +53,7 @@
 }
 
 @media screen and (max-width: 1025px) {
-.catalog-billboard .body-billboard {
+.catalog-banner .body-banner {
   padding: 237px 20px 76px 20px;
 }
   .body-mobile {
@@ -120,10 +120,10 @@
 
 
 @media screen and (max-width: 829px) {
-.home-billboard .body-billboard {
+.home-banner .body-banner {
     padding: 120px 20px 90px 20px;
   }
-  .catalog-billboard .body-billboard {
+  .catalog-banner .body-banner {
     padding: 170px 20px 94px 20px;
   }
   .card-box {
@@ -174,10 +174,10 @@
     justify-content: flex-end;
   }
 //--------------------------------------------------------------------
-.home-billboard .body-billboard {
+.home-banner .body-banner {
     padding: 69px 20px 45px 20px;
   }
-  .catalog-billboard .body-billboard {
+  .catalog-banner .body-banner {
     padding: 100px 20px 94px 20px;
   }
   .header-author {
@@ -195,7 +195,7 @@
 
 
 @media screen and (max-width: 660px) {
-  .form-billboard {
+  .form-banner {
     grid-template-areas: "name"
                          "email"
                          "button";
@@ -227,19 +227,19 @@
     font-size: 30px;
   }
 //-------------------------------------------------------
-  .btn-form {
+  .btn-banner-main {
     width: 280px;
   }
-  .subheader-billboard {
+  .subheader-banner {
     font-size: 18px;
   }
-  .catalog-billboard .addinfo-billboard {
+  .catalog-banner .addinfo-banner {
       font-size: 14px;
     }
-  .home-billboard .addinfo-billboard {
+  .home-banner .addinfo-banner {
       font-size: 12px;
     }
-    .btn-catalog {
+    .btn-banner-catalog {
       width: 280px;
     &:nth-child(1) {
       margin: 0 0 19px 0;

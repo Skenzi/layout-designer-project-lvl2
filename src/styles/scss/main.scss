@@ -2,23 +2,24 @@
  background-image: url(#{$wayimage});
  background-size: $sizeimage;
 }
+$text-color: #8c8c8c;
 .header-album, .header-author, .header-news, .header-mobile {
   padding: 100px 0 50px 0;
 }
 // --------------------Index Styles-----------------------------------------------
 
 // --------Banner styles----------------
-.home-billboard {
+.home-banner {
   background-image: url(../images/banner.png);
   background-position: center;
   background-size: cover;
-  .body-billboard {
+  .body-banner {
     flex-flow: column;
     padding: 232px 0 248px 0;
     text-align: center;
   }
 }
-.form-billboard {
+.form-banner {
   grid-gap: 25px 30px;
   grid-template-areas: "name email"
                        "button button";
@@ -40,11 +41,11 @@
 .email-box {
  grid-area: email;
 }
-.btn-form {
+.btn-banner-main {
  grid-area: button;
  width: 570px;
  font-weight: 700;
- background-color: $btn-form-color;
+ background-color: #34c176;
 }
 
 // --------Subscribes styles-----------
@@ -132,7 +133,7 @@
   width: 129px;
   height: 48px;
   padding: 16px 0;
-  color: $text-color;
+  color: #8c8c8c;
   font-weight: 700;
   font-size: 12px;
   text-align: center;
@@ -156,30 +157,30 @@
  width: 174px;
  font-size: 14px;
  text-align: center;
- background-color: $btn-dowland-color;
+ background-color: #ff4157;
  border-radius: 50px;
 }
 
 //----------------Catalog page styles------------------------------------------------------------
 
 //--------Banner Styles-----------
-.catalog-billboard {
+.catalog-banner {
   background-image: url(../images/Morten.png);
   background-position: 70% 0;
   background-size: cover;
-    .body-billboard {
+    .body-banner {
       padding: 237px 0 76px 0;
     }
 }
- .subheader-billboard {
+ .subheader-banner {
    font-weight: 700;
    font-size: 30px;
  }
-  .addinfo-billboard {
+  .addinfo-banner {
     font-weight: 700;
     font-size: 18px;
   }
-.btn-catalog {
+.btn-banner-catalog {
   width: 200px;
   font-size: 14px;
   text-align: left;
@@ -229,11 +230,11 @@
   font-size: 14px;
 }
 .track-author {
-  color: $text-color;
+  color: #8c8c8c;
   font-size: 12px;
 }
 .track-time {
-  color: $text-color;
+  color: #8c8c8c;
   font-size: 14px;
 }
 .card-box {
