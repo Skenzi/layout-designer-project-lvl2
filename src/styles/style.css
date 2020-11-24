@@ -23,6 +23,36 @@ a {
 .absolute {
   position: absolute; }
 
+.mrg-l-68 {
+  margin-left: 68px; }
+
+.mrg-r-68 {
+  margin-right: 68px; }
+
+.mrg-25-0-20-0 {
+  margin: 25px 0 20px 0; }
+
+.mrg-25-0-40-0 {
+  margin: 25px 0 40px 0; }
+
+.mrg-100-0-50-0 {
+  margin: 100px 0 50px 0; }
+
+.mrg-b-25 {
+  margin-bottom: 25px; }
+
+.mrg-b-30 {
+  margin-bottom: 30px; }
+
+.mrg-b-50 {
+  margin-bottom: 50px; }
+
+.mrg-0-21 {
+  margin: 0 21px; }
+
+.mrg-10-0-40-0 {
+  margin: 10px 0 40px 0; }
+
 .main-title {
   font-size: 60px; }
 
@@ -69,44 +99,8 @@ a {
 .text-uppercase {
   text-transform: uppercase; }
 
-.mrg-l-68 {
-  margin-left: 68px; }
-
-.mrg-r-68 {
-  margin-right: 68px; }
-
-.mrg-25-0-20-0 {
-  margin: 25px 0 20px 0; }
-
-.mrg-25-0-40-0 {
-  margin: 25px 0 40px 0; }
-
-.mrg-100-0-50-0 {
-  margin: 100px 0 50px 0; }
-
-.mrg-b-25 {
-  margin-bottom: 25px; }
-
-.mrg-b-30 {
-  margin-bottom: 30px; }
-
-.mrg-b-50 {
-  margin-bottom: 50px; }
-
-.mrg-0-21 {
-  margin: 0 21px; }
-
-.mrg-10-0-40-0 {
-  margin: 10px 0 40px 0; }
-
 .active-link {
   color: #fff !important; }
-
-.black-bgcolor {
-  background-color: #000; }
-
-.darkgray-bgcolor {
-  background-color: #3c3b3d; }
 
 .violet-bgcolor {
   background-color: #5328a1; }
@@ -152,6 +146,8 @@ a {
 .search-box {
   width: 280px;
   padding: 8px 14px;
+  color: #fff;
+  background-color: #3c3b3d;
   font-weight: 700;
   font-size: 11px;
   border: none;
@@ -169,29 +165,30 @@ a {
   font-weight: 700;
   font-size: 11px; }
 
-.header-album, .header-author, .header-news, .header-mobile {
+.album-header, .author-header, .news-header, .app-header {
   padding: 100px 0 50px 0; }
 
-.home-poster {
+.poster-home {
   background-image: url(../images/banner.png);
   background-position: center;
   background-size: cover; }
-  .home-poster .body-poster {
+  .poster-home .poster-body {
     flex-flow: column;
     padding: 232px 0 248px 0;
     text-align: center; }
 
-.form-poster {
+.poster-form {
+  width: 570px;
   grid-gap: 25px 30px;
   grid-template-areas: "name email" "button button"; }
-  .form-poster input {
+  .poster-form input {
     padding: 17px 20px;
     font-weight: 700;
     font-size: 14px;
     background-color: rgba(255, 255, 255, 0.1);
     border: 2px solid rgba(255, 255, 255, 0.1);
     border-radius: 3px; }
-  .form-poster input::placeholder {
+  .poster-form input::placeholder {
     color: #fff; }
 
 .name-box {
@@ -202,14 +199,13 @@ a {
 
 .btn-form {
   grid-area: button;
-  width: 570px;
   font-weight: 700;
   background-color: #34c176; }
 
 .upper-block {
   padding: 100px 0 0 0; }
 
-.header-subscribes {
+.subscribes-header {
   padding-bottom: 50px; }
 
 .subscribe-1, .subscribe-2, .subscribe-3 {
@@ -238,10 +234,10 @@ a {
   background-image: url(../images/subscribe_3.png);
   background-size: cover; }
 
-.body-subs {
+.subs-body {
   margin-top: 210px; }
 
-.price-sub {
+.sub-price {
   margin: 0;
   font-size: 60px; }
 
@@ -256,24 +252,24 @@ a {
   background-color: transparent;
   border: 4px solid #fff; }
 
-.description-subs {
+.subs-description {
   font-size: 11px; }
 
-.additinfo-subs {
+.subs-addinfo {
   font-size: 22px;
   text-align: center; }
 
 .news-container:nth-child(1n+3) {
   margin-top: 70px; }
 
-.img-news {
+.news-img {
   max-width: 566px;
   max-height: 280px; }
 
 .news {
   flex: 1; }
 
-.text-news {
+.news-text {
   color: #8c8c8c;
   font-size: 14px;
   line-height: 28px; }
@@ -296,12 +292,12 @@ a {
 .lower-block {
   padding: 0 0 100px 0; }
 
-.mobile-text {
+.app-text {
   flex: 0 1 50%;
   margin-right: 210px;
   color: #8c8c8c; }
 
-.mobile-img {
+.app-img {
   width: 295px; }
 
 .btn-dowland {
@@ -312,18 +308,18 @@ a {
   background-color: #ff4157;
   border-radius: 50px; }
 
-.catalog-poster {
+.poster-catalog {
   background-image: url(../images/Morten.png);
   background-position: 70% 0;
   background-size: cover; }
-  .catalog-poster .body-poster {
+  .poster-catalog .poster-body {
     padding: 237px 0 76px 0; }
 
-.subheader-poster {
+.poster-subheader {
   font-weight: 700;
   font-size: 30px; }
 
-.addinfo-poster {
+.poster-addinfo {
   font-weight: 700;
   font-size: 18px; }
 
@@ -348,7 +344,7 @@ a {
 .btn-img-album {
   width: 25px; }
 
-.header-traks {
+.tracks-header {
   padding-bottom: 50px; }
 
 .cover {
@@ -441,11 +437,11 @@ a {
   .nav-area {
     margin: 0 180px 0 70px; }
 
-  .form-subscribes {
+  .subscribes-container {
     flex-flow: row wrap;
     justify-content: center; }
 
-  .catalog-poster .body-poster {
+  .poster-catalog .poster-body {
     padding: 237px 50px 76px 50px; } }
 @media screen and (max-width: 1200px) {
   .middle-block {
@@ -464,7 +460,7 @@ a {
     flex-flow: column;
     justify-content: center; }
 
-  .img-news {
+  .news-img {
     order: 1;
     margin: 0 0 20px 0; }
 
@@ -481,17 +477,17 @@ a {
     padding-right: 20px;
     padding-left: 20px; } }
 @media screen and (max-width: 1025px) {
-  .catalog-poster .body-poster {
+  .poster-catalog .poster-body {
     padding: 237px 20px 76px 20px; }
 
-  .body-mobile {
+  .app-body {
     flex-flow: column;
     align-items: center; }
 
-  .mobile-img {
+  .app-img {
     order: -1; }
 
-  .mobile-text {
+  .app-text {
     margin-right: 0;
     text-align: center; }
 
@@ -505,7 +501,7 @@ a {
   .header-areas {
     flex-flow: row wrap; }
 
-  .description-subs {
+  .subs-description {
     max-width: 300px; }
 
   .btn-news {
@@ -516,7 +512,7 @@ a {
   .footer-height, .footer-low {
     flex-flow: row wrap; } }
 @media screen and (max-width: 930px) {
-  .mobile-img {
+  .app-img {
     margin-bottom: 50px; }
 
   .footer-element {
@@ -527,10 +523,10 @@ a {
   .cards-box {
     justify-content: center; } }
 @media screen and (max-width: 829px) {
-  .home-poster .body-poster {
+  .poster-home .poster-body {
     padding: 120px 20px 90px 20px; }
 
-  .catalog-poster .body-poster {
+  .poster-catalog .poster-body {
     padding: 170px 20px 94px 20px; }
 
   .card-box {
@@ -557,7 +553,7 @@ a {
     display: inline-block;
     padding-right: 20px; }
 
-  .form-subscribes {
+  .subscribes-container {
     flex-flow: column; }
 
   .subscribe-1, .subscribe-2, .subscribe-3 {
@@ -570,10 +566,10 @@ a {
     display: flex;
     justify-content: flex-end; }
 
-  .home-poster .body-poster {
+  .poster-home .poster-body {
     padding: 69px 20px 45px 20px; }
 
-  .catalog-poster .body-poster {
+  .poster-catalog .poster-body {
     padding: 100px 20px 94px 20px; }
 
   .header-author {
@@ -586,10 +582,10 @@ a {
   .footer-low > p {
     margin-top: 100px; } }
 @media screen and (max-width: 660px) {
-  .form-poster {
+  .poster-form {
     grid-template-areas: "name" "email" "button"; }
 
-  .imgs-catalog {
+  .card-img {
     width: 210px; }
 
   .track-box {
@@ -608,16 +604,16 @@ a {
   .main-title {
     font-size: 30px; }
 
-  .btn-form {
+  .poster-form {
     width: 280px; }
 
-  .subheader-poster {
+  .poster-subheader {
     font-size: 18px; }
 
-  .catalog-poster .addinfo-poster {
+  .poster-catalog .poster-addinfo {
     font-size: 14px; }
 
-  .home-poster .addinfo-poster {
+  .poster-home .poster-addinfo {
     font-size: 12px; }
 
   .btn-catalog {
@@ -663,7 +659,7 @@ a {
   .mrg-0-21 {
     margin: 0 42px; }
 
-  .imgs-catalog {
+  .card-img {
     width: 180px; }
 
   .track-box:first-child {
@@ -675,16 +671,16 @@ a {
   .title-block {
     font-size: 20px; }
 
-  .additinfo-subs {
+  .subs-additinfo {
     font-size: 12px; }
 
-  .header-news {
+  .news-header {
     padding: 44px 0 50px 0; }
 
-  .header-mobile {
+  .app-header {
     padding: 90px 0 50px 0; }
 
-  .img-news {
+  .news-img {
     width: 390px;
     height: 180px; }
 
@@ -724,7 +720,7 @@ a {
     .header-nav-element:last-child {
       padding: 0; }
 
-  .imgs-catalog {
+  .card-img {
     width: 130px; }
 
   .card-catalog:nth-child(2n + 1) {
@@ -746,18 +742,18 @@ a {
     .subscribe-1 h3, .subscribe-2 h3, .subscribe-3 h3 {
       font-size: 16px; }
 
-  .body-subs {
+  .subs-body {
     margin-top: 167px; }
 
   .btn-subs {
     padding: 20px 80px;
     font-size: 12px; }
 
-  .img-news {
+  .news-img {
     width: 280px;
     height: 140px; }
 
-  .mobile-img {
+  .app-img {
     width: 280px; }
 
   .card-catalog:nth-child(2n + 1) {

@@ -3,11 +3,11 @@
     margin: 0 180px 0 70px;
   }
 //--------------------------------------------------------------------
-  .form-subscribes {
+  .subscribes-container {
     flex-flow: row wrap;
     justify-content: center;
   }
-  .catalog-poster .body-poster {
+  .poster-catalog .poster-body {
     padding: 237px 50px 76px 50px;
   }
 }
@@ -31,7 +31,7 @@
     flex-flow: column;
     justify-content: center;
   }
-  .img-news {
+  .news-img {
     order: 1;
     margin: 0 0 20px 0;
   }
@@ -53,17 +53,17 @@
 }
 
 @media screen and (max-width: 1025px) {
-.catalog-poster .body-poster {
+.poster-catalog .poster-body {
   padding: 237px 20px 76px 20px;
 }
-  .body-mobile {
+  .app-body {
     flex-flow: column;
     align-items: center;
   }
-  .mobile-img {
+  .app-img {
    order: -1;
   }
- .mobile-text {
+ .app-text {
    margin-right: 0;
    text-align: center;
  }
@@ -83,7 +83,7 @@
     flex-flow: row wrap;
   }
 //--------------------------------------------------------------------
-  .description-subs {
+  .subs-description {
     max-width: 300px;
   }
   .btn-news {
@@ -99,7 +99,7 @@
 
 
 @media screen and (max-width: 930px) {
-  .mobile-img {
+  .app-img {
     margin-bottom: 50px;
   }
 //-------------------------------------------------------
@@ -120,10 +120,10 @@
 
 
 @media screen and (max-width: 829px) {
-.home-poster .body-poster {
+.poster-home .poster-body {
     padding: 120px 20px 90px 20px;
   }
-  .catalog-poster .body-poster {
+  .poster-catalog .poster-body {
     padding: 170px 20px 94px 20px;
   }
   .card-box {
@@ -156,7 +156,7 @@
       padding-right: 20px;
     }
 //------------------------------------------------------------------------------
-  .form-subscribes {
+  .subscribes-container {
     flex-flow: column;
   }
   %subscribes {
@@ -174,10 +174,10 @@
     justify-content: flex-end;
   }
 //--------------------------------------------------------------------
-.home-poster .body-poster {
+.poster-home .poster-body {
     padding: 69px 20px 45px 20px;
   }
-  .catalog-poster .body-poster {
+  .poster-catalog .poster-body {
     padding: 100px 20px 94px 20px;
   }
   .header-author {
@@ -195,12 +195,12 @@
 
 
 @media screen and (max-width: 660px) {
-  .form-poster {
+  .poster-form {
     grid-template-areas: "name"
                          "email"
                          "button";
   }
-  .imgs-catalog {
+  .card-img {
     width: 210px;
   }
   .track-box {
@@ -227,16 +227,16 @@
     font-size: 30px;
   }
 //-------------------------------------------------------
-  .btn-form {
+  .poster-form {
     width: 280px;
   }
-  .subheader-poster {
+  .poster-subheader {
     font-size: 18px;
   }
-  .catalog-poster .addinfo-poster {
+  .poster-catalog .poster-addinfo {
       font-size: 14px;
     }
-  .home-poster .addinfo-poster {
+  .poster-home .poster-addinfo {
       font-size: 12px;
     }
     .btn-catalog {
@@ -293,7 +293,7 @@
    margin: 0 42px;
   }
 //-------------------------------------------------------
-  .imgs-catalog {
+  .card-img {
     width: 180px;
   }
    .track-box:first-child {
@@ -309,16 +309,16 @@
     font-size: 20px;
   }
 //-------------------------------------------------------
-  .additinfo-subs {
+  .subs-additinfo {
     font-size: 12px;
   }
-  .header-news {
+  .news-header {
     padding: 44px 0 50px 0;
   }
-  .header-mobile {
+  .app-header {
     padding: 90px 0 50px 0;
   }
-  .img-news {
+  .news-img {
     width: 390px;
     height: 180px;
   }
@@ -367,7 +367,7 @@
     }
   }
 //-------------------------------------------------------
-.imgs-catalog {
+.card-img {
   width: 130px;
 }
 .card-catalog:nth-child(2n + 1) {
@@ -397,19 +397,19 @@
    height: 480px;
    padding: 20px 20px 15px 20px;
   }
- .body-subs {
+ .subs-body {
    margin-top: 167px;
  }
   .btn-subs {
     padding: 20px 80px;
     font-size: 12px;
   }
-  .img-news {
+  .news-img {
     width: 280px;
     height: 140px;
   }
 
-  .mobile-img {
+  .app-img {
     width: 280px;
   }
 //-------------------------------------------------------
