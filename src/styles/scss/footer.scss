@@ -4,19 +4,19 @@
    color: #cacaca;
  }
 }
-.height-footer {
+.footer-height {
   align-items: baseline;
   justify-content: space-between;
   padding: 80px 0 100px 0;
 }
-.low-footer {
+.footer-low {
   padding: 50px 0;
 }
-.headers-footer {
+.footer-headers {
   color: #cacaca;
   font-size: 18px;
 }
-.element-height-nav {
+.height-nav-element {
   &:first-child {
     padding-top: 30px;
   }
@@ -34,7 +34,7 @@
   background-color: #eee;
   border: none;
 }
-.element-low-nav {
+.low-nav-element {
     display: inline-block;
    &:nth-child(1n+2) {
     margin-left: 40px;

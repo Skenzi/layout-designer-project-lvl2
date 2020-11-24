@@ -2,24 +2,23 @@
  background-image: url(#{$wayimage});
  background-size: $sizeimage;
 }
-$text-color: #8c8c8c;
 .header-album, .header-author, .header-news, .header-mobile {
   padding: 100px 0 50px 0;
 }
 // --------------------Index Styles-----------------------------------------------
 
 // --------Banner styles----------------
-.home-banner {
+.home-poster {
   background-image: url(../images/banner.png);
   background-position: center;
   background-size: cover;
-  .body-banner {
+  .body-poster {
     flex-flow: column;
     padding: 232px 0 248px 0;
     text-align: center;
   }
 }
-.form-banner {
+.form-poster {
   grid-gap: 25px 30px;
   grid-template-areas: "name email"
                        "button button";
@@ -41,11 +40,11 @@ $text-color: #8c8c8c;
 .email-box {
  grid-area: email;
 }
-.btn-banner-main {
+.btn-form {
  grid-area: button;
  width: 570px;
  font-weight: 700;
- background-color: #34c176;
+ background-color: $btn-form-color;
 }
 
 // --------Subscribes styles-----------
@@ -133,7 +132,7 @@ $text-color: #8c8c8c;
   width: 129px;
   height: 48px;
   padding: 16px 0;
-  color: #8c8c8c;
+  color: $text-color;
   font-weight: 700;
   font-size: 12px;
   text-align: center;
@@ -157,30 +156,30 @@ $text-color: #8c8c8c;
  width: 174px;
  font-size: 14px;
  text-align: center;
- background-color: #ff4157;
+ background-color: $btn-dowland-color;
  border-radius: 50px;
 }
 
 //----------------Catalog page styles------------------------------------------------------------
 
 //--------Banner Styles-----------
-.catalog-banner {
+.catalog-poster {
   background-image: url(../images/Morten.png);
   background-position: 70% 0;
   background-size: cover;
-    .body-banner {
+    .body-poster {
       padding: 237px 0 76px 0;
     }
 }
- .subheader-banner {
+ .subheader-poster {
    font-weight: 700;
    font-size: 30px;
  }
-  .addinfo-banner {
+  .addinfo-poster {
     font-weight: 700;
     font-size: 18px;
   }
-.btn-banner-catalog {
+.btn-catalog {
   width: 200px;
   font-size: 14px;
   text-align: left;
@@ -230,11 +229,11 @@ $text-color: #8c8c8c;
   font-size: 14px;
 }
 .track-author {
-  color: #8c8c8c;
+  color: $text-color;
   font-size: 12px;
 }
 .track-time {
-  color: #8c8c8c;
+  color: $text-color;
   font-size: 14px;
 }
 .card-box {
