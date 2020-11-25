@@ -7,6 +7,9 @@
    a {
    color: #808080;
    text-decoration: none;
+   &.active-link {
+    color: $active-link-color;
+  }
   }
 }
 .header-nav {
@@ -15,13 +18,14 @@
  }
   .header-nav-element {
   display: inline-block;
-  padding-right: 40px;
+  margin-right: 40px;
   &:last-child {
-    padding-right: 0;
+    margin-right: 0;
   }
 }
 .search-area input::placeholder {
   color: #808080;
+  text-transform: uppercase;
 }
 .search-box {
   width: 280px;

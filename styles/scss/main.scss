@@ -37,9 +37,11 @@
 }
 .name-box {
  grid-area: name;
+ color: $primary-color;
 }
 .email-box {
  grid-area: email;
+ color: $primary-color;
 }
 .btn-form {
  grid-area: button;
@@ -51,7 +53,10 @@
 .upper-block {
   padding: 100px 0 0 0;
 }
-.subscribes-header {
+.subscribes-container {
+  gap: 75px;
+}
+.subscribers-header {
   padding-bottom: 50px;
 }
 %subscribes {
@@ -59,7 +64,6 @@
   flex-flow: column;
   justify-content: space-between;
   height: 580px;
-  margin-bottom: 50px;
   padding: 25px 20px 65px 20px;
   border-radius: 8px;
   h3 {
@@ -68,12 +72,10 @@
   }
 }
 .subscribe-1 {
- margin-right: 75px;
  @include bg-image("../images/subscribe_1.png", cover);
  @extend %subscribes;
 }
 .subscribe-2 {
- margin-right: 75px;
  @include bg-image("../images/subscribe_2.png", cover);
  @extend %subscribes;
 }
@@ -102,21 +104,21 @@
 .subs-description {
  font-size: 11px;
 }
-.subs-addinfo {
+.subs-additinfo {
+ margin-top: 50px;
  font-size: 22px;
  text-align: center;
 }
 
 // --------News Styles-----------
-.news-container:nth-child(1n+3) {
-  margin-top: 70px;
+.news-container {
+  gap: 68px;
+  &:nth-child(1n+3) {
+   margin-top: 70px;
+ }
 }
-.news-img {
- max-width: 566px;
- max-height: 280px
-}
-.news {
- flex: 1;
+.news, .news-img {
+ flex: 1 1 0;
 }
 .news-text {
   color: $text-color;
@@ -143,10 +145,15 @@
 .lower-block {
   padding: 0 0 100px 0;
 }
-.app-text {
- flex: 0 1 50%;
- margin-right: 210px;
+.app-body {
+  gap: 210px;
+}
+.app-text-box {
+ flex: 1.4 1 0;
  color: $text-color;
+}
+.app-img-box {
+  flex: 1 1 0;
 }
 .app-img {
   width: 295px;
@@ -202,22 +209,19 @@
   width: 25px;
 }
 //--------Main Styles-----------
+.track-container {
+  gap: 25px 68px;
+}
 .tracks-header {
   padding-bottom: 50px;
+}
+.track-box {
+  flex: 0 1 45%;
 }
 .cover {
   width: 55px;
   height: 55px;
   margin-right: 15px;
-}
-.track-box {
-  flex: 0 1 45%;
-  &:nth-child(1n+3) {
-    margin-top: 25px;
-  }
-  &:nth-child(2n+1) {
-    margin-right: 68px;
-  }
 }
 .track-info {
   flex: 1;
@@ -237,17 +241,11 @@
   font-size: 14px;
 }
 .card-box {
+  gap: 50px;
   align-items: baseline;
 }
 .card-catalog {
   flex: 0 1 250px;
-  margin: 0 50px 0 0;
-  &:nth-child(1n+5) {
-    margin-top: 50px;
-  }
-  &:nth-child(4n+4) {
-    margin-right: 0;
-  }
 }
 .card-info-album {
   margin-top: 10px;

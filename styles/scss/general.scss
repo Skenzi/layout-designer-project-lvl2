@@ -30,14 +30,6 @@ a {
   position: absolute;
 }
 
-.mrg-l-68 {
-  margin-left: 68px;
-}
-
-.mrg-r-68 {
-  margin-right: 68px;
-}
-
 .mrg-25-0-20-0 {
   margin: 25px 0 20px 0;
 }
@@ -129,10 +121,6 @@ a {
 
 .text-uppercase {
   text-transform: uppercase;
-}
-
-.active-link {
-  color: $active-link-color !important;
 }
 
 @mixin bg-color($name-color, $color) {
