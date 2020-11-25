@@ -28,9 +28,9 @@
  }
 //--------------------------------------------------------------------
   .news-container {
+    gap: 20px;
     flex-flow: column;
     justify-content: center;
-    gap: 20px;
   }
   .news-img-box {
     order: 1;
@@ -53,9 +53,9 @@
   padding: 237px 20px 76px 20px;
 }
   .app-container {
+    gap: 50px;
     flex-flow: column;
     align-items: center;
-    gap: 50px;
   }
   .app-text-box {
     max-width: 790px;
