@@ -19,10 +19,10 @@
   }
 }
 .poster-form {
-  width: 570px;
   grid-gap: 25px 30px;
   grid-template-areas: "name email"
                        "button button";
+  width: 570px;
  & input {
  padding: 17px 20px;
  font-weight: 700;
