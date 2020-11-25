@@ -62,7 +62,8 @@ a {
 }
 
 .mrg-0-21 {
-  margin: 0 21px; 
+  margin: 0 21px;
+
 }
 
 .mrg-10-0-40-0 {
@@ -242,7 +243,7 @@ a {
 
 .poster-form input {
   padding: 17px 20px;
-  
+
   font-weight: 700;
   font-size: 14px;
 
@@ -399,7 +400,6 @@ a {
 
 .lower-block {
   padding: 0 0 100px 0;
-
 }
 
 .app-container {
@@ -663,8 +663,8 @@ a {
   }
 
   .app-container {
-    gap: 50px;
     flex-flow: column;
+    gap: 50px;
     align-items: center;
   }
 
@@ -739,7 +739,6 @@ a {
   .subscribes-container {
     gap: 50px;
   }
-
 }
 
 @media screen and (max-width: 780px) {
@@ -856,7 +855,7 @@ a {
   .btn-catalog {
     width: 280px;
   }
-  
+
   .btn-catalog:nth-child(1) {
     margin: 0 0 19px 0;
   }
@@ -958,7 +957,7 @@ a {
     margin: 20px 0 0 0;
   }
 }
-  
+
 @media screen and (max-width: 430px) {
   .header-areas {
     flex-flow: column;
@@ -977,8 +976,9 @@ a {
   .nav-area {
     order: 3;
     margin: 0;
-    
-    text-align: left; 
+  
+    text-align: left;
+  
   }
 
   .header-nav-element {
@@ -1050,4 +1050,5 @@ a {
     gap: 50px 20px;
   }
 }
+
 /*# sourceMappingURL=style.css.map */
