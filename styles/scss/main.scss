@@ -46,6 +46,7 @@
 .btn-form {
  grid-area: button;
  font-weight: 700;
+ font-size: 14px;
  background-color: $btn-form-color;
 }
 
@@ -112,12 +113,12 @@
 
 // --------News Styles-----------
 .news-container {
-  gap: 68px;
+  gap: 60px;
   &:nth-child(1n+3) {
    margin-top: 70px;
  }
 }
-.news, .news-img {
+.news-box, .news-img-box {
  flex: 1 1 0;
 }
 .news-text {
@@ -145,15 +146,16 @@
 .lower-block {
   padding: 0 0 100px 0;
 }
-.app-body {
-  gap: 210px;
+.app-container {
+  gap: 60px;
 }
 .app-text-box {
- flex: 1.4 1 0;
+ flex: 1 1 0;
  color: $text-color;
 }
 .app-img-box {
   flex: 1 1 0;
+  text-align: center;
 }
 .app-img {
   width: 295px;

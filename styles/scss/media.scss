@@ -32,10 +32,10 @@
     justify-content: center;
     gap: 20px;
   }
-  .news-img {
+  .news-img-box {
     order: 1;
   }
-  .news {
+  .news-box {
     order: 2;
   }
   .subscribes-container {
@@ -52,10 +52,13 @@
 .poster-catalog .poster-body {
   padding: 237px 20px 76px 20px;
 }
-  .app-body {
+  .app-container {
     flex-flow: column;
     align-items: center;
     gap: 50px;
+  }
+  .app-text-box {
+    max-width: 790px;
   }
   .app-img-box {
    order: -1;
@@ -228,7 +231,7 @@
       margin: 0 0 19px 0;
     }
   }
-  .news {
+  .news-box {
   .mrg-b-50 {
     margin-bottom: 28px;
   }
