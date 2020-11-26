@@ -100,9 +100,22 @@ a {
  align-items: center;
 }
 
+.form-input {
+  padding: 17px 20px;
+  font-weight: 700;
+  font-size: 14px;
+  background-color: rgba(255,255,255, 0.1);
+  border: 2px solid rgba(255,255,255, 0.1);
+  border-radius: 3px;
+  &::placeholder {
+    color: $primary-color;
+  }
+}
+
 .btn {
  padding: 20px;
  color: $primary-color;
+ font-size: 14px;
  background-color: transparent;
  border: none;
  border-radius: 5px;

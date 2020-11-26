@@ -23,30 +23,17 @@
   grid-template-areas: "name email"
                        "button button";
   width: 570px;
- & input {
- padding: 17px 20px;
- font-weight: 700;
- font-size: 14px;
- background-color: rgba(255,255,255, 0.1);
- border: 2px solid rgba(255,255,255, 0.1);
- border-radius: 3px;
- }
- input::placeholder {
-   color: $primary-color;
- }
 }
+
 .name-box {
  grid-area: name;
- color: $primary-color;
 }
 .email-box {
  grid-area: email;
- color: $primary-color;
 }
 .btn-form {
  grid-area: button;
  font-weight: 700;
- font-size: 14px;
  background-color: $btn-form-color;
 }
 
@@ -163,7 +150,6 @@
 .btn-dowland {
  display: block;
  width: 174px;
- font-size: 14px;
  text-align: center;
  background-color: $btn-dowland-color;
  border-radius: 50px;
@@ -190,7 +176,6 @@
   }
 .btn-catalog {
   width: 200px;
-  font-size: 14px;
   text-align: left;
   &:nth-child(1) {
     margin-right: 35px;

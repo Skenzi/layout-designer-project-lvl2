@@ -107,10 +107,26 @@ a {
   align-items: center;
 }
 
+.form-input {
+  padding: 17px 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+}
+
+.form-input::placeholder {
+  color: #fff;
+}
+
 .btn {
   padding: 20px;
 
   color: #fff;
+  font-size: 14px;
 
   background-color: transparent;
   border: none;
@@ -157,14 +173,14 @@ a {
 .nav-area {
   margin: 0 335px 0 100px;
 }
-
+  
 .nav-area a {
   color: #808080;
-  text-decoration: none;
+  text-decoration: none; 
 }
-
+    
 .nav-area a.active-link {
-  color: #fff;
+  color: #fff; 
 }
 
 .header-nav {
@@ -176,7 +192,7 @@ a {
   display: inline-block;
   margin-right: 40px;
 }
-
+  
 .header-nav-element:last-child {
   margin-right: 0;
 }
@@ -186,7 +202,7 @@ a {
   text-transform: uppercase;
 }
 
-.search-box {
+.search-input {
   width: 280px;
   padding: 8px 14px;
 
@@ -240,38 +256,18 @@ a {
   width: 570px;
 }
 
-.poster-form input {
-  padding: 17px 20px;
-
-  font-weight: 700;
-  font-size: 14px;
-
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 2px solid rgba(255, 255, 255, 0.1);
-  border-radius: 3px;
-}
-
-.poster-form input::placeholder {
-  color: #fff;
-}
-
 .name-box {
   grid-area: name;
-
-  color: #fff;
 }
 
 .email-box {
   grid-area: email;
-
-  color: #fff;
 }
 
 .btn-form {
   grid-area: button;
 
   font-weight: 700;
-  font-size: 14px;
 
   background-color: #34c176;
 }
@@ -367,8 +363,7 @@ a {
   margin-top: 70px;
 }
 
-.news-box,
-.news-img-box {
+.news-box, .news-img-box {
   flex: 1 1 0;
 }
 
@@ -407,13 +402,11 @@ a {
 
 .app-text-box {
   flex: 1 1 0;
-
   color: #8c8c8c;
 }
 
 .app-img-box {
   flex: 1 1 0;
-
   text-align: center;
 }
 
@@ -425,7 +418,6 @@ a {
   display: block;
   width: 174px;
 
-  font-size: 14px;
   text-align: center;
 
   background-color: #ff4157;
@@ -452,10 +444,10 @@ a {
   font-size: 18px;
 }
 
+
 .btn-catalog {
   width: 200px;
 
-  font-size: 14px;
   text-align: left;
 }
 
@@ -649,8 +641,7 @@ a {
     gap: 60px;
   }
 
-  .footer-height,
-  .footer-low {
+  .footer-height, .footer-low {
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -700,8 +691,7 @@ a {
     padding: 18px 0;
   }
 
-  .footer-height,
-  .footer-low {
+  .footer-height, .footer-low {
     flex-flow: row wrap;
   }
 }
@@ -749,9 +739,7 @@ a {
     font-size: 22px;
   }
 
-  .logo-area,
-  .search-area {
-    flex: 0 1 40%;
+  .logo-area, .search-area {
     order: 1;
   }
 
@@ -801,10 +789,6 @@ a {
   .cover {
     width: 50px;
     height: 50px;
-  }
-
-  .footer-low > p {
-    margin-top: 100px;
   }
 }
 
@@ -883,8 +867,7 @@ a {
     margin-bottom: 5px;
   }
 
-  .album-name,
-  .author-name {
+  .album-name, .author-name {
     font-size: 16px;
   }
 
@@ -963,19 +946,12 @@ a {
     align-items: flex-start;
   }
 
-  .logo-area {
-    order: 1;
-  }
-
   .search-area {
-    order: 2;
     margin: 17px 0 20px 0;
   }
 
   .nav-area {
-    order: 3;
     margin: 0;
-
     text-align: left;
   }
 
@@ -1026,7 +1002,6 @@ a {
 
   .btn-subs {
     padding: 20px 80px;
-
     font-size: 12px;
   }
 
