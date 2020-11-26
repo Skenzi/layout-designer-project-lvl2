@@ -173,14 +173,14 @@ a {
 .nav-area {
   margin: 0 335px 0 100px;
 }
-  
+
 .nav-area a {
   color: #808080;
-  text-decoration: none; 
+  text-decoration: none;
 }
-    
+
 .nav-area a.active-link {
-  color: #fff; 
+  color: #fff;
 }
 
 .header-nav {
@@ -192,7 +192,7 @@ a {
   display: inline-block;
   margin-right: 40px;
 }
-  
+
 .header-nav-element:last-child {
   margin-right: 0;
 }
@@ -363,7 +363,8 @@ a {
   margin-top: 70px;
 }
 
-.news-box, .news-img-box {
+.news-box,
+.news-img-box {
   flex: 1 1 0;
 }
 
@@ -402,11 +403,13 @@ a {
 
 .app-text-box {
   flex: 1 1 0;
+
   color: #8c8c8c;
 }
 
 .app-img-box {
   flex: 1 1 0;
+
   text-align: center;
 }
 
@@ -443,7 +446,6 @@ a {
   font-weight: 700;
   font-size: 18px;
 }
-
 
 .btn-catalog {
   width: 200px;
@@ -641,7 +643,8 @@ a {
     gap: 60px;
   }
 
-  .footer-height, .footer-low {
+  .footer-height,
+  .footer-low {
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -691,7 +694,8 @@ a {
     padding: 18px 0;
   }
 
-  .footer-height, .footer-low {
+  .footer-height,
+  .footer-low {
     flex-flow: row wrap;
   }
 }
@@ -739,7 +743,8 @@ a {
     font-size: 22px;
   }
 
-  .logo-area, .search-area {
+  .logo-area,
+  .search-area {
     order: 1;
   }
 
@@ -867,7 +872,8 @@ a {
     margin-bottom: 5px;
   }
 
-  .album-name, .author-name {
+  .album-name,
+  .author-name {
     font-size: 16px;
   }
 
@@ -952,6 +958,7 @@ a {
 
   .nav-area {
     margin: 0;
+
     text-align: left;
   }
 
@@ -1002,6 +1009,7 @@ a {
 
   .btn-subs {
     padding: 20px 80px;
+    
     font-size: 12px;
   }
 
