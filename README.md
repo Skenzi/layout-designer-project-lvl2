@@ -1,4 +1,4 @@
 ### Hexlet tests and linter status:
 ![Actions Status](/workflows/hexlet-check/badge.svg)
 
-skenzi-music-box.surge.sh
+<a href = "http://skenzi-music-box.surge.sh">Music Box</a>
